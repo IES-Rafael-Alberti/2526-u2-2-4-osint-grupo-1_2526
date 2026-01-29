@@ -93,15 +93,12 @@ Tabla de fuentes:
 | Metadatos   | exiftool | autores, rutas, software    | sobre ficheros públicos     |
 
 ### 3.3 Adquisición (recopilación)
-<!-- AYUDA (BORRAR): Consultas representativas (no todas). Añadid palabras clave, variantes del nombre, ubicaciones, etc. -->
 
 - Consultas realizadas (resumen):
+  - Clínica de San Rafael de Cádiz
   - site:hospitalespascual.com filetype:pdf
-  - site:hospitalespascual.com filetype:doc
-  - site:hospitalespascual.com filetype:docx
-  - "@hospitalespascual" -site:hospitalespascual.com
 
-- Evidencias:
+- Evidencias: TODO
   - Guardar capturas o PDFs en `evidencias/` con nombres: `YYYY-MM-DD_fuente_tema.ext`
   - Registrar URL (y, cuando sea útil, captura) y fecha de acceso en cada hallazgo.
   - Toda evidencia mencionada en el informe debe estar enlazada (URL y/o ruta relativa a `evidencias/`).
