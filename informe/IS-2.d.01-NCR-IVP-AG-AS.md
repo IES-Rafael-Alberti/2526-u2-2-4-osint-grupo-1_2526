@@ -115,6 +115,7 @@ Tabla de fuentes:
   - Fiabilidad de la fuente (primaria vs. terciaria).
   - Fecha y vigencia (actual vs. histórico).
   - Corroboración cruzada (>= 2 fuentes cuando sea posible).
+  - Continuidad de los patrones previamente vistos (nombres de correos, prefijo de telefono, etc ...)
 <!-- AYUDA (BORRAR): Indicad qué hallazgos NO pudisteis corroborar y por qué. -->
 
 ### 3.5 Análisis e interpretación
