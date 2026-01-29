@@ -81,10 +81,8 @@ Esta sección describe el proceso seguido según el ciclo OSINT: planificación,
   - Evidencias archivadas en: `evidencias/`.
 
 ### 3.2 Identificación de fuentes
-<!-- AYUDA (BORRAR): Fuentes por categoría. Mejor pocas y justificadas. Indicad cómo se mantiene el enfoque pasivo. -->
 
-Tabla de fuentes (añadir/quitar según aplique):
-<!-- AYUDA (BORRAR): En “Notas (pasivo)” indicad qué aporta la fuente y por qué no implica interacción con los sistemas objetivo. -->
+Tabla de fuentes:
 
 | Categoría   | Fuente/Herramienta                  | Qué se busca                | Notas (pasivo)              |
 |-------------|-------------------------------------|-----------------------------|-----------------------------|
