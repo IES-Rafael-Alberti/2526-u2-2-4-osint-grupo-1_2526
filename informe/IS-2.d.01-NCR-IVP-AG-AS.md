@@ -3,7 +3,7 @@
 
 - Entidad objetivo: Clínica de San Rafael de Cádiz
 - Equipo/Grupo: Grupo 1
-- Integrantes: Nerea Candón Ramos(NCR), Inca Vico Prieto(IVP), Asier Gónzales(AG), Adrián Sánchez(AS).
+- Integrantes: Nerea Candón Ramos(NCR), Inca Vico Prieto(IVP), Asier Gónzalez(AG), Adrián Sánchez(AS).
 - Fecha(s) de investigación: 29/01/2026 a 01/02/2026
 - Versión: 1.0
 - Límite de entrega (a): máximo 6 folios (12 caras) en PDF (si aplica)
