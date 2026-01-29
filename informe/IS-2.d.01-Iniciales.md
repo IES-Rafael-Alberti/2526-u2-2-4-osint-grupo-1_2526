@@ -93,13 +93,11 @@ Tabla de fuentes (añadir/quitar según aplique):
 
 | Categoría   | Fuente/Herramienta                  | Qué se busca                | Notas (pasivo)              |
 |-------------|-------------------------------------|-----------------------------|-----------------------------|
-| Buscadores  | Google / Bing / DuckDuckGo          | menciones, PDFs, indexación | dorks sin acceder a paneles |
-| Archivo web | Wayback Machine                     | versiones antiguas          | solo lectura                |
-| Dominios    | WHOIS/RDAP (consulta)               | datos de registro           | solo consulta pública       |
-| DNS pasivo  | dnsdumpster, securitytrails, etc.   | subdominios/histórico       | sin enumeración activa      |
-| Brechas     | HIBP / DeHashed (si se usa)         | apariciones en brechas      | no intentar logins          |
-| RRSS        | LinkedIn/X/Facebook (público)       | perfiles, roles, nicks      | solo contenido público      |
-| Metadatos   | exiftool/FOCA (sobre docs públicos) | autores, rutas, software    | sobre ficheros públicos     |
+| Buscadores  | Google / Yandex / DuckDuckGo          | menciones, PDFs, indexación | dorks sin acceder a paneles |
+| Dominios    | WHOIS, viewdns               | datos de registro           | solo consulta pública       |
+| DNS pasivo  | dnsdumpster, viewdns   | subdominios/histórico       | sin enumeración activa      |
+| RRSS        | LinkedIn/X/Facebook/Instagram/TopDoctors       | perfiles, roles, nicks      | solo contenido público      |
+| Metadatos   | exiftool | autores, rutas, software    | sobre ficheros públicos     |
 
 ### 3.3 Adquisición (recopilación)
 <!-- AYUDA (BORRAR): Consultas representativas (no todas). Añadid palabras clave, variantes del nombre, ubicaciones, etc. -->
