@@ -103,9 +103,10 @@ Tabla de fuentes (añadir/quitar según aplique):
 <!-- AYUDA (BORRAR): Consultas representativas (no todas). Añadid palabras clave, variantes del nombre, ubicaciones, etc. -->
 
 - Consultas realizadas (resumen):
-  - [Query/dork 1]
-  - [Query/dork 2]
-  - [Query/dork 3]
+  - site:hospitalespascual.com filetype:pdf
+  - site:hospitalespascual.com filetype:doc
+  - site:hospitalespascual.com filetype:docx
+  - "@hospitalespascual" -site:hospitalespascual.com
 
 - Evidencias:
   - Guardar capturas o PDFs en `evidencias/` con nombres: `YYYY-MM-DD_fuente_tema.ext`
