@@ -84,19 +84,20 @@ Esta sección describe el proceso seguido según el ciclo OSINT: planificación,
 
 Tabla de fuentes:
 
-| Categoría   | Fuente/Herramienta                  | Qué se busca                | Notas (pasivo)              |
-|-------------|-------------------------------------|-----------------------------|-----------------------------|
-| Buscadores  | Google / Yandex / DuckDuckGo          | menciones, PDFs, indexación | dorks sin acceder a paneles |
-| Dominios    | WHOIS, viewdns               | datos de registro           | solo consulta pública       |
-| DNS pasivo  | dnsdumpster, viewdns   | subdominios/histórico       | sin enumeración activa      |
-| RRSS        | LinkedIn/X/Facebook/Instagram/TopDoctors       | perfiles, roles, nicks      | solo contenido público      |
-| Metadatos   | exiftool | autores, rutas, software    | sobre ficheros públicos     |
+| Categoría  | Fuente/Herramienta                       | Qué se busca                | Notas (pasivo)              |
+| ---------- | ---------------------------------------- | --------------------------- | --------------------------- |
+| Buscadores | Google / Yandex / DuckDuckGo             | menciones, PDFs, indexación | dorks sin acceder a paneles |
+| Dominios   | WHOIS, viewdns                           | datos de registro           | solo consulta pública       |
+| DNS pasivo | dnsdumpster, viewdns                     | subdominios/histórico       | sin enumeración activa      |
+| RRSS       | LinkedIn/X/Facebook/Instagram/TopDoctors | perfiles, roles, nicks      | solo contenido público      |
+| Metadatos  | exiftool                                 | autores, rutas, software    | sobre ficheros públicos     |
 
 ### 3.3 Adquisición (recopilación)
 
 - Consultas realizadas (resumen):
   - Clínica de San Rafael de Cádiz
   - site:hospitalespascual.com filetype:pdf
+  - "@hospitalespascual" -site:hospitalespascual.com
 
 - Evidencias: TODO
   - Guardar capturas o PDFs en `evidencias/` con nombres: `YYYY-MM-DD_fuente_tema.ext`
@@ -143,7 +144,7 @@ Tabla de fuentes:
 <!-- AYUDA (BORRAR): Incluid solo herramientas realmente usadas y una evidencia por cada una (URL o fichero en `evidencias/`). -->
 
 | Herramienta   | Tipo                          | Uso concreto | Salida/evidencia               |
-|---------------|-------------------------------|--------------|--------------------------------|
+| ------------- | ----------------------------- | ------------ | ------------------------------ |
 | [Herramienta] | [Buscador/DNS/Metadatos/etc.] | [Para qué]   | [archivo en evidencias/ o URL] |
 
 ## 5. Resultados (hallazgos)
@@ -153,7 +154,7 @@ Formato recomendado por hallazgo:
 <!-- AYUDA (BORRAR): Copiad esta tabla por cada hallazgo importante (o adaptadla si preferís una tabla global). -->
 
 | Campo           | Contenido                                                                  |
-|-----------------|----------------------------------------------------------------------------|
+| --------------- | -------------------------------------------------------------------------- |
 | ID              | A-01                                                                       |
 | Categoría       | Contacto / Identidad / Dominio-DNS / Documentos-Metadatos / RRSS / Brechas |
 | Descripción     | [Qué se encontró, claro y verificable]                                     |
@@ -196,7 +197,7 @@ Formato recomendado por hallazgo:
 <!-- AYUDA (BORRAR): Tabla para priorizar: qué arreglar primero (P1), después (P2) y al final (P3). -->
 
 | ID   | Hallazgo (resumen) | Riesgo | Prioridad | Acción recomendada |
-|------|--------------------|--------|-----------|--------------------|
+| ---- | ------------------ | ------ | --------- | ------------------ |
 | A-01 | [..]               | Alto   | P1        | [..]               |
 | A-02 | [..]               | Medio  | P2        | [..]               |
 | A-03 | [..]               | Bajo   | P3        | [..]               |
@@ -231,7 +232,7 @@ Formato recomendado por hallazgo:
 <!-- AYUDA (BORRAR): Fuentes base consultadas (URL + fecha). No hace falta duplicar cada evidencia si ya está en hallazgos, pero sí lo principal. -->
 
 | Fuente   | URL  | Fecha acceso | Nota |
-|----------|------|--------------|------|
+| -------- | ---- | ------------ | ---- |
 | [Fuente] | [..] | [YYYY-MM-DD] | [..] |
 
 ### 9.2 Consultas (dorks) empleadas
