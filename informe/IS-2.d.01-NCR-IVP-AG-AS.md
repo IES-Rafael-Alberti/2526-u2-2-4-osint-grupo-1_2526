@@ -59,31 +59,26 @@ la concienciación del personal sobre los riesgos de la información pública en
 - Si aparecen datos personales de terceros (p. ej., correos de empleados), aplicar reducción: mostrar solo lo imprescindible o enmascarar parcialmente cuando no aporte valor al riesgo.
 
 ## 3. Metodología (ciclo OSINT)
-<!-- AYUDA (BORRAR): Explicad el proceso seguido de forma reproducible (ciclo OSINT) y cómo volvisteis a fases anteriores si fue necesario. -->
 
 Esta sección describe el proceso seguido según el ciclo OSINT: planificación, fuentes, adquisición, procesamiento, análisis y difusión.
 
 ### 3.1 Planificación y dirección
-<!-- AYUDA (BORRAR): Objetivos, preguntas guía y criterios de priorización. Esto demuestra teoría + método. -->
 
 - Preguntas guía (ejemplos):
-  - ¿Qué dominios y marcas usa la entidad?
+  - ¿Tiene página web y que puedo sacar de ella?
+  - ¿Qué dominios usa la entidad?
   - ¿Existen patrones de email/usuarios visibles públicamente?
   - ¿Existen documentos públicos con metadatos reveladores?
-  - ¿Hay menciones de tecnologías, proveedores, sedes, organigrama o personal?
-  - ¿La entidad aparece asociada a brechas pasadas o leaks públicos?
-<!-- AYUDA (BORRAR): Ajustad estas preguntas a lo que realmente investigasteis. -->
+  - ¿Hay menciones de sedes, organigrama o personal?
 
 - Criterios de priorización:
   - Impacto potencial en ingeniería social.
-  - Reutilización de credenciales/patrones.
   - Exposición de infraestructura por huella documental/histórica.
-<!-- AYUDA (BORRAR): Indicad 2-4 criterios máximo y cómo los aplicasteis. -->
+  - Exposición de datos personales
 
 - Ventana temporal:
-  - Consulta realizada en: [YYYY-MM-DD]
-  - Evidencias archivadas en: `evidencias/` (todas deben quedar enlazadas en el informe).
-<!-- AYUDA (BORRAR): Si usasteis Wayback, indicad el rango de años consultado. -->
+  - Consulta realizada en: [2026-01-29]
+  - Evidencias archivadas en: `evidencias/`.
 
 ### 3.2 Identificación de fuentes
 <!-- AYUDA (BORRAR): Fuentes por categoría. Mejor pocas y justificadas. Indicad cómo se mantiene el enfoque pasivo. -->
