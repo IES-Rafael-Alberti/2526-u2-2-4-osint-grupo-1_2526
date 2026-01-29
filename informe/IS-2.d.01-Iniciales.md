@@ -45,7 +45,7 @@ la concienciación del personal sobre los riesgos de la información pública en
 ## 2. Alcance, supuestos y reglas de compromiso
 <!-- AYUDA (BORRAR): Dejad claro QUÉ se ha hecho y QUÉ no (para demostrar OSINT pasivo). Indicad supuestos y límites. -->
 
-**Alcance.** Solo OSINT pasivo sobre la entidad (y su huella pública asociada). No se incluye investigación individual (apartado b).
+**Alcance.** Solo OSINT pasivo sobre la entidad Hospital San Rafael de Cádiz (y su huella pública asociada). No se incluye investigación individual (apartado b).
 
 **Fuentes permitidas (ejemplos).** Motores de búsqueda, hemeroteca, registros públicos, perfiles públicos en RRSS, repositorios públicos, documentos públicos, Wayback/archivos, bases de datos de brechas (consulta pasiva).
 <!-- AYUDA (BORRAR): Listad las fuentes reales que usasteis (5-10), no un listado infinito. -->
