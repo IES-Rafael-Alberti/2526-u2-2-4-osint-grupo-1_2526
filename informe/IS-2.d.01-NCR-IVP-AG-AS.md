@@ -203,6 +203,32 @@ Formato recomendado por hallazgo:
 
 ### 5.5 Brechas y filtraciones (consulta pasiva)
 <!-- AYUDA (BORRAR): Aparición del dominio/correos en brechas conocidas. No incluyáis contraseñas. Priorizad mitigaciones (2FA, rotación, etc.). -->
+- A-01B
+
+| Campo           | Contenido                                                                                                                                                 |
+| --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ID              | A-0X                                                                                                                                                      |
+| Categoría       | Brechas                                                                                                                                                   |
+| Descripción     | Si navegamos por la web de la clínica con la consola de las devtools abierta, podemos observar notificaciones de tecnologías específicas y sus versiones. |
+| Evidencia       | https://www.hospitalespascual.com + [01-Wordpress.png](/evidencias/brechas-y-filtraciones/01-Wordpress.png)                                               |
+| Fecha evidencia | 2026-01-29                                                                                                                                                |
+| Impacto         | Permite a un atacante identificar brechas de seguridad en la web de la clínica.                                                                           |
+| Riesgo          | Medio                                                                                                                                                     |
+| Recomendación   | Evitar la exposición de tecnologías en la medida de lo posible.                                                                                           |
+
+- A-02B
+
+| Campo           | Contenido                                                                                                                                                 |
+| --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ID              | A-02B                                                                                                                                                     |
+| Categoría       | Brechas                                                                                                                                                   |
+| Descripción     | Si navegamos por la web de la clínica con la consola de las devtools abierta, podemos observar notificaciones de tecnologías específicas y sus versiones. |
+| Evidencia       | https://www.hospitalespascual.com + [02-Jquery.png](/evidencias/brechas-y-filtraciones/02-Jquery.png)                                                     |
+| Fecha evidencia | 2026-01-29                                                                                                                                                |
+| Impacto         | Permite a un atacante identificar brechas de seguridad en la web de la clínica.                                                                           |
+| Riesgo          | Medio                                                                                                                                                     |
+| Recomendación   | Evitar la exposición de tecnologías en la medida de lo posible.                                                                                           |
+
 
 - A-09
 
