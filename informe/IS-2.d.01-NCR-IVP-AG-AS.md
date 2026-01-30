@@ -229,6 +229,16 @@ Formato recomendado por hallazgo:
 | Riesgo          | Medio                                                                                                                                                     |
 | Recomendación   | Evitar la exposición de tecnologías en la medida de lo posible.                                                                                           |
 
+| Campo | Contenido |
+| --- | --- |
+| ID | A-01A |
+| Categoría | Brechas |
+| Descripción | Busqueda en Google de la web de la "Clínica de San Rafael de Cádiz", y vamos a la sección de "Equipo humano” se puede ver una lista con todos los empleados. |
+| Evidencia | [https://www.hospitalespascual.com/hospital-san-rafael/] + evidencias\identidades digitales\A-01\2026-01-29_web.png |
+| Fecha evidencia | [2026-01-29] |
+| Impacto | Saber todos los empleados que trabajan en el hospital |
+| Riesgo | Alto |
+| Recomendación | Remover la seccion de Equipo humano |
 
 - A-09
 
