@@ -28,10 +28,10 @@ la concienciación del personal sobre los riesgos de la información pública en
 
 **Hallazgos clave (3-7 bullets).**
 
-- A-01A: En la sección de Equipo humano, la Clínica nos proporciona una lista con todos los empleados.  
+- A-13: En la sección de Equipo humano, la Clínica nos proporciona una lista con todos los empleados.  
 - A-01, 02: Se facilita la búsqueda en redes sociales y otras plataformas para su posterior ingeniería social. 
-- A-02X: En la sección "Directorio" se facilita la distribución de las diferentes áres del hospital. 
-- A-05: En los subdominios se observan servicios expuestos, que puede convertirse en un vector de ataque.   
+- A-14: En la sección "Directorio" se facilita la distribución de las diferentes áres del hospital. 
+- A-07: En los subdominios se observan servicios expuestos, que puede convertirse en un vector de ataque.   
 
 **Riesgo global (una frase).**
 
@@ -154,10 +154,7 @@ Tabla de fuentes:
 | https://exif.tools/     | [Metadatos]                   | Extraer Metadatos de un archivo         | evidencias\huella\2026-01-29_politica.png   |
 
 ## 5. Resultados (hallazgos)
-<!-- AYUDA (BORRAR): Parte principal. Cada hallazgo debe ser verificable y tener evidencia enlazada (URL y/o `evidencias/...`). -->
 
-Formato recomendado por hallazgo:
-<!-- AYUDA (BORRAR): Copiad esta tabla por cada hallazgo importante (o adaptadla si preferís una tabla global). -->
 
 | Campo           | Contenido                                                                  |
 | --------------- | -------------------------------------------------------------------------- |
@@ -239,7 +236,7 @@ Formato recomendado por hallazgo:
 | Evidencia       | [https://www.hospitalespascual.com/guia-para-el-paciente/]+ evidencias\contacto\2026-01-29_guia3.png |
 | Fecha evidencia | [2026-01-29]                                                                                         |
 | Impacto         | Saber vectores de ataque para ingenieria social                                                      |
-| Riesgo          | Medio                                                                                                |
+| Riesgo          | Bajo                                                                                                 |
 | Recomendación   | Hacer saber a los empleados que estos datos son públicos                                             |
 
 ### 5.3 Dominios, subdominios y huella DNS (pasivo)
@@ -377,14 +374,14 @@ Formato recomendado por hallazgo:
 | A-02 | Información profesional del objetivo encontrada en LinkedIn y páginas web, incluyendo fotos con colegas | Alto   | P1        | Revisar la información pública en perfiles profesionales y limitar la exposición de datos laborales.                           |
 | A-03 | Información sobre Guido Weisman                                                                         | Alto   | P1        | Revisar la información pública en perfiles profesionales y limitar la exposición de datos laborales.                           |
 | A-04 | Información personal en redes sociales (Instagram y Facebook) incluyendo fotos familiares               | Medio  | P2        | Hacer saber a los empleados que estos datos son públicos                                                                       |
-| A-05 | En la guia para el paciente se pueden ver varios telefonos                                              | Medio  | P2        | Hacer saber a los empleados que estos datos son públicos                                                                       |
-| A-06 | Subdominios observados en fuentes pasivas/históricas.                                                   | Alto   | P1        | Reducir lo que "se puede enumerar"; cerrar subdominios innecesarios, aislar entornos, evitar registros DNS de más entre otras. |
-| A-07 | Obtener detalles clave tanto del dominio como de la ip pública asociada.                                | Alto   | P1        | No exponer información sensible en Whois activando la privacidad del registrador.                                              |
-| A-08 | Obtener la huella DNS del dominio.                                                                      | Alto   | P1        | Elimina subdominios innecesarios y aísla los entornos dev/staging (VPN o IP allowlist) para reducir la attack surface.         |
+| A-05 | En la guia para el paciente se pueden ver varios telefonos                                              | Bajo   | P3        | Hacer saber a los empleados que estos datos son públicos                                                                       |
+| A-06 | Subdominios observados en fuentes pasivas/históricas.                                                   | Medio  | P2        | Reducir lo que "se puede enumerar"; cerrar subdominios innecesarios, aislar entornos, evitar registros DNS de más entre otras. |
+| A-07 | Obtener detalles clave tanto del dominio como de la ip pública asociada.                                | Bajo   | P3        | No exponer información sensible en Whois activando la privacidad del registrador.                                              |
+| A-08 | Obtener la huella DNS del dominio.                                                                      | Medio  | P2        | Elimina subdominios innecesarios y aísla los entornos dev/staging (VPN o IP allowlist) para reducir la attack surface.         |
 | A-09 | Documento pdf con varios metadatos como autor y herramienta usada                                       | Bajo   | P3        | Asegurarse de que no se guarden metadatos de información sensible                                                              |
 | A-10 | Documento BOJA de un convenio colectivo de hospitalespascual                                            | Bajo   | P3        | Hacer saber al responble de que este documento es público                                                                      |
-| A-11 | Notificaciones de tecnologías específicas y sus versiones. Wordpress                                    | Alto   | P1        | Evitar la exposición de tecnologías en la medida de lo posible.                                                                |
-| A-12 | Notificaciones de tecnologías específicas y sus versiones. Jquery                                       | Alto   | P1        | Evitar la exposición de tecnologías en la medida de lo posible.                                                                |
+| A-11 | Notificaciones de tecnologías específicas y sus versiones. Wordpress                                    | Medio  | P2        | Evitar la exposición de tecnologías en la medida de lo posible.                                                                |
+| A-12 | Notificaciones de tecnologías específicas y sus versiones. Jquery                                       | Medio  | P2        | Evitar la exposición de tecnologías en la medida de lo posible.                                                                |
 | A-13 | Lista de todos los empleados                                                                            | Alto   | P1        | Remover la sección Equipo Humano                                                                                               |
 | A-14 | Distribución de las instalaciones.                                                                      | Medio  | P2        | Remover la sección de Directorio                                                                                               |
 
@@ -395,21 +392,41 @@ Formato recomendado por hallazgo:
 - **Transparencia física excesiva:** La disponibilidad pública de directorios y planos del edificio reduce la barrera de entrada para operaciones de seguridad física o reconocimiento presencial, eliminando la necesidad de reconocimiento activo arriesgado.
 - **Huella técnica y documental descuidada:** La presencia de subdominios olvidados, versiones de software expuestas y metadatos en documentos PDF revela una falta de higiene digital que podría servir como punto de entrada inicial para comprometer la infraestructura tecnológica.
 
+
 ## 8. Recomendaciones
-<!-- AYUDA (BORRAR): Convertid hallazgos en acciones concretas. Si podéis, asignad responsable sugerido (IT/Seguridad/RRHH/Comunicacion). -->
 
-**Quick wins (0-30 días)**
-<!-- AYUDA (BORRAR): Cambios rápidos: retirar/editar documentos, sanear metadatos, ajustar contenidos públicos, concienciación inmediata. -->
-- [..]
-- [..]
+### Quick wins (0-30 días)
+- Limitar la información visible en la sección “Equipo humano” y “Directorio” de la web (A-01, A-13, A-14).  
+  **Responsable:** Comunicación / IT
+- Configurar la privacidad de las cuentas de redes sociales de los empleados, especialmente de directivos y personal visible públicamente (A-01, A-03).  
+  **Responsable:** RRHH / Seguridad
+- Retirar o anonimizar metadatos de documentos públicos y PDFs antes de publicarlos en la web (A-09, A-10).  
+  **Responsable:** IT / Comunicación
+- Avisar al personal sobre la exposición pública de datos de contacto (emails, teléfonos) y la importancia de la concienciación frente a ingeniería social (A-04, A-05).  
+  **Responsable:** RRHH / Seguridad
+- Evitar que la web muestre versiones de tecnologías y plugins que podrían permitir identificar brechas (A-11, A-12).  
+  **Responsable:** IT
 
-**Medio plazo (1-3 meses)**
-<!-- AYUDA (BORRAR): Cambios estructurales: políticas de publicación, revisión periódica, procesos, formación, controles de identidad. -->
-- [..]
+### Medio plazo (1-3 meses)
+- Revisar y centralizar la publicación de información profesional en LinkedIn y otras plataformas; establecer políticas de visibilidad y control de perfiles (A-02, A-03).  
+  **Responsable:** RRHH / Comunicación
+- Reducir la exposición de subdominios y servicios innecesarios en el DNS; aislar entornos de desarrollo y staging mediante VPN o listas de IP (A-06, A-08).  
+  **Responsable:** IT
+- Activar privacidad en Whois y evitar exponer datos sensibles del dominio (A-07).  
+  **Responsable:** IT
+- Establecer procedimientos periódicos de revisión de contenidos publicados, documentos y perfiles profesionales para mantener la información actualizada y segura.  
+  **Responsable:** IT / Seguridad / RRHH
 
-**Mejora continua**
-<!-- AYUDA (BORRAR): Medidas recurrentes: monitorización de menciones, revisiones trimestrales de exposición, playbook OSINT. -->
-- [..]
+### Mejora continua
+- Implementar un plan de monitorización de menciones y exposición digital de empleados y del hospital para detectar riesgos emergentes.  
+  **Responsable:** Seguridad / Comunicación
+- Revisiones trimestrales de la superficie de exposición OSINT de la organización.  
+  **Responsable:** Seguridad / IT
+- Desarrollar un playbook OSINT interno con procedimientos claros de mitigación frente a filtraciones, ingeniería social y exposición de datos.  
+  **Responsable:** Seguridad / IT
+- Formar continuamente al personal sobre riesgos de seguridad digital, ingeniería social y buenas prácticas en redes sociales y publicación de información.  
+  **Responsable:** RRHH / Seguridad
+
 
 ## 9. Anexos
 <!-- AYUDA (BORRAR): Trazabilidad. Esta sección facilita la corrección: fuentes, consultas y evidencias enlazadas. -->
@@ -417,11 +434,23 @@ Formato recomendado por hallazgo:
 ### 9.1 Registro de fuentes
 <!-- AYUDA (BORRAR): Fuentes base consultadas (URL + fecha). No hace falta duplicar cada evidencia si ya está en hallazgos, pero sí lo principal. -->
 
-| Fuente                             | URL                                                                    | Fecha acceso | Nota                    |
-| ---------------------------------- | ---------------------------------------------------------------------- | ------------ | ----------------------- |
-| Web Hospitales Pascual, San Rafael | [(https://www.hospitalespascual.com/hospital-san-rafael/)]             | 2026/01/29   | Equipo Humano           |
-| Doctoralia                         | [https://www.doctoralia.es/ignacio-ortiz-acero/cirujano-general/cadiz] | 2026/01/29   | Consultorio Privado IOA |
-| Facebook                           | [https://www.facebook.com/ignacio.ortizacero/]                         | 2026/01/29   | Red Social              |
+| Fuente                             | URL                                                                                                                                          | Fecha acceso | Nota                      |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------- |
+| Web Hospitales Pascual, San Rafael | [https://www.hospitalespascual.com/hospital-san-rafael/](https://www.hospitalespascual.com/hospital-san-rafael/)                             | 2026/01/29   | Equipo Humano, Directorio |
+| Doctoralia Ignacio Ortiz           | [https://www.doctoralia.es/ignacio-ortiz-acero/cirujano-general/cadiz](https://www.doctoralia.es/ignacio-ortiz-acero/cirujano-general/cadiz) | 2026/01/29   | Consultorio Privado IOA   |
+| Facebook Ignacio Ortiz             | [https://www.facebook.com/ignacio.ortizacero/](https://www.facebook.com/ignacio.ortizacero/)                                                 | 2026/01/29   | Red Social                |
+| LinkedIn Guido Weisman             | [https://www.linkedin.com/in/guido-weisman-baa92824b/](https://www.linkedin.com/in/guido-weisman-baa92824b/)                                 | 2026/01/30   | Perfil profesional        |
+| SegurCaixa Adeslas Guido Weisman   | [https://www.segurcaixaadeslas.es/cuadromedico/l/traumatologos/cadiz](https://www.segurcaixaadeslas.es/cuadromedico/l/traumatologos/cadiz)   | 2026/01/30   | Cuadro médico             |
+| Facebook Guido Weisman             | [https://www.facebook.com/guidoweis/?locale=es_LA](https://www.facebook.com/guidoweis/?locale=es_LA)                                         | 2026/01/30   | Red Social                |
+| Instagram Guido Weisman            | [https://www.instagram.com/gugaweis/?hl=es](https://www.instagram.com/gugaweis/?hl=es)                                                       | 2026/01/30   | Red Social                |
+| LinkedIn José Manuel Pascual       | [https://www.linkedin.com/in/jose-manuel-pascual-espinosa-aaa5711b/](https://www.linkedin.com/in/jose-manuel-pascual-espinosa-aaa5711b/)     | 2026/01/30   | Perfil profesional        |
+| Facebook Hospital Pascual          | [https://www.facebook.com/hospitalespascual/videos/3411228055856310/](https://www.facebook.com/hospitalespascual/videos/3411228055856310/)   | 2026/01/30   | Red Social / Video        |
+| TopDoctors José Manuel Pascual     | [https://www.topdoctors.es/doctor/jose-manuel-pascual-espinosa/](https://www.topdoctors.es/doctor/jose-manuel-pascual-espinosa/)             | 2026/01/30   | Consultorio Privado       |
+| Web Hospitales Pascual             | [https://www.hospitalespascual.com/hospital-san-rafael/](https://www.hospitalespascual.com/hospital-san-rafael/)                             | 2026/01/30   | Equipo Humano             |
+| Guia de Usuario                    | [https://www.hospitalespascual.com/wp-content/uploads/2024/03/guia-del-usuario_San-Rafael_Com.pdf]                                           | 2026/01/29   | Contactos                 |
+| Guia para el paciente              | [https://www.hospitalespascual.com/guia-para-el-paciente/]                                                                                   | 2026/01/29   | Contactos                 |
+| Politica de medioambiente          | [https://www.hospitalespascual.com/wp-content/uploads/2024/09/POLITICA-DE-MEDIOAMBIENTE44.pdf]                                               | 2026/01/29   | Metadatos                 |
+
 
 ### 9.2 Consultas (dorks) empleadas
 <!-- AYUDA (BORRAR): Dejad 5-15 consultas representativas. Deben ser pasivas y reproducibles. -->
