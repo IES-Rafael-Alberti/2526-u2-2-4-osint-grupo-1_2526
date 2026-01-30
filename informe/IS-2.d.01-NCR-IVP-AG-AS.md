@@ -413,9 +413,13 @@ Formato recomendado por hallazgo:
 
 | Fuente                             | URL                                                                    | Fecha acceso | Nota                    |
 | ---------------------------------- | ---------------------------------------------------------------------- | ------------ | ----------------------- |
-| Web Hospitales Pascual, San Rafael | [(https://www.hospitalespascual.com/hospital-san-rafael/)]             | 2026/01/29   | Equipo Humano           |
+| Web Hospitales Pascual, San Rafael | [(https://www.hospitalespascual.com/hospital-san-rafael/)]             | 2026/01/29   | Equipo Humano, Directorio           |
 | Doctoralia                         | [https://www.doctoralia.es/ignacio-ortiz-acero/cirujano-general/cadiz] | 2026/01/29   | Consultorio Privado IOA |
 | Facebook                           | [https://www.facebook.com/ignacio.ortizacero/]                         | 2026/01/29   | Red Social              |
+| Guia de Usuario                           | [https://www.hospitalespascual.com/wp-content/uploads/2024/03/guia-del-usuario_San-Rafael_Com.pdf]                         | 2026/01/29   | Contactos              |
+| Guia para el paciente                           | [https://www.hospitalespascual.com/guia-para-el-paciente/]                         | 2026/01/29   | Contactos              |
+| Politica de medioambiente                           | [https://www.hospitalespascual.com/wp-content/uploads/2024/09/POLITICA-DE-MEDIOAMBIENTE44.pdf]                         | 2026/01/29   | Metadatos              |
+
 
 ### 9.2 Consultas (dorks) empleadas
 <!-- AYUDA (BORRAR): Dejad 5-15 consultas representativas. Deben ser pasivas y reproducibles. -->
