@@ -395,21 +395,41 @@ Formato recomendado por hallazgo:
 - **Transparencia física excesiva:** La disponibilidad pública de directorios y planos del edificio reduce la barrera de entrada para operaciones de seguridad física o reconocimiento presencial, eliminando la necesidad de reconocimiento activo arriesgado.
 - **Huella técnica y documental descuidada:** La presencia de subdominios olvidados, versiones de software expuestas y metadatos en documentos PDF revela una falta de higiene digital que podría servir como punto de entrada inicial para comprometer la infraestructura tecnológica.
 
+
 ## 8. Recomendaciones
-<!-- AYUDA (BORRAR): Convertid hallazgos en acciones concretas. Si podéis, asignad responsable sugerido (IT/Seguridad/RRHH/Comunicacion). -->
 
-**Quick wins (0-30 días)**
-<!-- AYUDA (BORRAR): Cambios rápidos: retirar/editar documentos, sanear metadatos, ajustar contenidos públicos, concienciación inmediata. -->
-- [..]
-- [..]
+### Quick wins (0-30 días)
+- Limitar la información visible en la sección “Equipo humano” y “Directorio” de la web (A-01, A-13, A-14).  
+  **Responsable:** Comunicación / IT
+- Configurar la privacidad de las cuentas de redes sociales de los empleados, especialmente de directivos y personal visible públicamente (A-01, A-03).  
+  **Responsable:** RRHH / Seguridad
+- Retirar o anonimizar metadatos de documentos públicos y PDFs antes de publicarlos en la web (A-09, A-10).  
+  **Responsable:** IT / Comunicación
+- Avisar al personal sobre la exposición pública de datos de contacto (emails, teléfonos) y la importancia de la concienciación frente a ingeniería social (A-04, A-05).  
+  **Responsable:** RRHH / Seguridad
+- Evitar que la web muestre versiones de tecnologías y plugins que podrían permitir identificar brechas (A-11, A-12).  
+  **Responsable:** IT
 
-**Medio plazo (1-3 meses)**
-<!-- AYUDA (BORRAR): Cambios estructurales: políticas de publicación, revisión periódica, procesos, formación, controles de identidad. -->
-- [..]
+### Medio plazo (1-3 meses)
+- Revisar y centralizar la publicación de información profesional en LinkedIn y otras plataformas; establecer políticas de visibilidad y control de perfiles (A-02, A-03).  
+  **Responsable:** RRHH / Comunicación
+- Reducir la exposición de subdominios y servicios innecesarios en el DNS; aislar entornos de desarrollo y staging mediante VPN o listas de IP (A-06, A-08).  
+  **Responsable:** IT
+- Activar privacidad en Whois y evitar exponer datos sensibles del dominio (A-07).  
+  **Responsable:** IT
+- Establecer procedimientos periódicos de revisión de contenidos publicados, documentos y perfiles profesionales para mantener la información actualizada y segura.  
+  **Responsable:** IT / Seguridad / RRHH
 
-**Mejora continua**
-<!-- AYUDA (BORRAR): Medidas recurrentes: monitorización de menciones, revisiones trimestrales de exposición, playbook OSINT. -->
-- [..]
+### Mejora continua
+- Implementar un plan de monitorización de menciones y exposición digital de empleados y del hospital para detectar riesgos emergentes.  
+  **Responsable:** Seguridad / Comunicación
+- Revisiones trimestrales de la superficie de exposición OSINT de la organización.  
+  **Responsable:** Seguridad / IT
+- Desarrollar un playbook OSINT interno con procedimientos claros de mitigación frente a filtraciones, ingeniería social y exposición de datos.  
+  **Responsable:** Seguridad / IT
+- Formar continuamente al personal sobre riesgos de seguridad digital, ingeniería social y buenas prácticas en redes sociales y publicación de información.  
+  **Responsable:** RRHH / Seguridad
+
 
 ## 9. Anexos
 <!-- AYUDA (BORRAR): Trazabilidad. Esta sección facilita la corrección: fuentes, consultas y evidencias enlazadas. -->
@@ -449,7 +469,9 @@ Formato recomendado por hallazgo:
 
 - `evidencias/`:
   - `brechas-y-filtraciones/`
-    - 
+    - `01-Wordpress.png` - 
+    - `02-Jquery.png` - 
+    - `2026-01-29_directorio.png` - 
   - `contacto/`
     - 
   - `dominios-subd-huella-dns/`
