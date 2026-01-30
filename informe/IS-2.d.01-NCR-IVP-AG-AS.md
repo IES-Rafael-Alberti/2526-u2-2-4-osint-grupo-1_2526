@@ -28,9 +28,10 @@ la concienciación del personal sobre los riesgos de la información pública en
 
 **Hallazgos clave (3-7 bullets).**
 <!-- AYUDA (BORRAR): Elegid solo lo más relevante (lo que facilita ingeniería social/reconocimiento). -->
-- A-01, 02: Información del personal expuesta en la web oficial del Hospital. Se facilita la búsqueda en redes sociales y otras plataformas para su posterior ingeniería social. 
-- A-03: Datos de contacto proporcionados por el Hospital en la web en un pdf. Conoces todos los trabajadores.
-- A-03
+- A-01A: En la sección de Equipo humano, la Clínica nos proporciona una lista con todos los empleados.  
+- A-01, 02: Se facilita la búsqueda en redes sociales y otras plataformas para su posterior ingeniería social. 
+- A-02X: En la sección "Directorio" se facilita la distribución de las diferentes áres del hospital. 
+- A-05: En los subdominios se observan servicios expuestos, que puede convertirse en un vector de ataque.   
 
 **Riesgo global (una frase).**
 <!-- AYUDA (BORRAR): Un diagnóstico breve: nivel + causa principal. -->
@@ -86,10 +87,10 @@ Tabla de fuentes:
 
 | Categoría  | Fuente/Herramienta                       | Qué se busca                | Notas (pasivo)              |
 | ---------- | ---------------------------------------- | --------------------------- | --------------------------- |
-| Buscadores | Google / Yandex / DuckDuckGo             | menciones, PDFs, indexación | dorks sin acceder a paneles |
+| Buscadores | Google             | menciones, PDFs, indexación | dorks sin acceder a paneles |
 | Dominios   | WHOIS, viewdns                           | datos de registro           | solo consulta pública       |
 | DNS pasivo | dnsdumpster, viewdns                     | subdominios/histórico       | sin enumeración activa      |
-| RRSS       | LinkedIn/X/Facebook/Instagram/TopDoctors | perfiles, roles, nicks      | solo contenido público      |
+| RRSS       | LinkedIn/Facebook/Instagram/TopDoctors | perfiles, roles, nicks      | solo contenido público      |
 | Metadatos  | exiftool                                 | autores, rutas, software    | sobre ficheros públicos     |
 
 ### 3.3 Adquisición (recopilación)
