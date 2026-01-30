@@ -183,11 +183,7 @@ Tabla de fuentes:
 | Riesgo          | Alto                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | Recomendación   | Limitar la información de los trabajadores y configurar la privacidad de las cuentas de redes sociales.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 
-
 - A-02
-
-
-
 
 | Campo           | Contenido                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -217,40 +213,40 @@ Tabla de fuentes:
 ### 5.2 Datos de contacto (emails, teléfonos, estructuras)
 <!-- AYUDA (BORRAR): Patrones de correo (si se infieren), teléfonos publicados, extensiones, formularios de contacto y riesgos asociados. -->
 
-- A-03
+- A-04
 
 | Campo           | Contenido                                                                                                                                                                               |
 | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ID              | A-03                                                                                                                                                                                    |
+| ID              | A-04                                                                                                                                                                                    |
 | Categoría       | Contacto                                                                                                                                                                                |
 | Descripción     | En la guia de usuario se pueden ver varios datos de contacto                                                                                                                            |
 | Evidencia       | [https://www.hospitalespascual.com/wp-content/uploads/2024/03/guia-del-usuario_San-Rafael_Com.pdf]+ evidencias\contacto\2026-01-29_guia1.png + evidencias\contacto\2026-01-29_guia2.png |
 | Fecha evidencia | [2026-01-29]                                                                                                                                                                            |
 | Impacto         | Saber vectores de ataque para ingenieria social hospital                                                                                                                                |
 | Riesgo          | Medio                                                                                                                                                                                   |
-| Recomendación   | Hacer saber a los empleados que estos datos son públicos humano                                                                                                                         |
+| Recomendación   | Hacer saber a los empleados que estos datos son públicos                                                                                                                                |
 
-- A-04
+- A-05
 
 | Campo           | Contenido                                                                                            |
 | --------------- | ---------------------------------------------------------------------------------------------------- |
-| ID              | A-04                                                                                                 |
+| ID              | A-05                                                                                                 |
 | Categoría       | Contacto                                                                                             |
 | Descripción     | En la guia para el paciente se pueden ver varios telefonos                                           |
 | Evidencia       | [https://www.hospitalespascual.com/guia-para-el-paciente/]+ evidencias\contacto\2026-01-29_guia3.png |
 | Fecha evidencia | [2026-01-29]                                                                                         |
 | Impacto         | Saber vectores de ataque para ingenieria social                                                      |
-| Riesgo          | Medio                                                                                                |
+| Riesgo          | Bajo                                                                                                 |
 | Recomendación   | Hacer saber a los empleados que estos datos son públicos                                             |
 
 ### 5.3 Dominios, subdominios y huella DNS (pasivo)
 <!-- AYUDA (BORRAR): Dominios oficiales/variantes y subdominios observados en fuentes pasivas/históricas. Evitad enumeración activa. -->
 
-- A-05
+- A-06
 
 | Campo           | Contenido                                                                                                                      |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| ID              | A-05                                                                                                                           |
+| ID              | A-06                                                                                                                           |
 | Categoría       | Dominio-DNS                                                                                                                    |
 | Descripción     | Subdominios observados en fuentes pasivas/históricas.                                                                          |
 | Evidencia       | https://viewdns.info/subdomains + [Subdominios](/evidencias/dominios-subd-huella-dns/subdominios.png)                          |
@@ -259,11 +255,11 @@ Tabla de fuentes:
 | Riesgo          | Medio                                                                                                                          |
 | Recomendación   | Reducir lo que "se puede enumerar"; cerrar subdominios innecesarios, aislar entornos, evitar registros DNS de más entre otras. |
 
-- A-06
+- A-07
 
 | Campo           | Contenido                                                                                                    |
 | --------------- | ------------------------------------------------------------------------------------------------------------ |
-| ID              | A-06                                                                                                         |
+| ID              | A-07                                                                                                         |
 | Categoría       | Dominio-DNS                                                                                                  |
 | Descripción     | Whois permite obtener detalles clave tanto del dominio como de la ip pública asociada.                       |
 | Evidencia       | https://viewdns.info/whois/ + [Whois](/evidencias/dominios-subd-huella-dns/WHOIS.png)                        |
@@ -272,13 +268,13 @@ Tabla de fuentes:
 | Riesgo          | Bajo                                                                                                         |
 | Recomendación   | No exponer información sensible en Whois activando la privacidad del registrador.                            |
 
-- A-07
+- A-08
   
 | Campo           | Contenido                                                                                                              |
 | --------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| ID              | A-07                                                                                                                   |
+| ID              | A-08                                                                                                                   |
 | Categoría       | Dominio-DNS                                                                                                            |
-| Descripción     | Obtener la huella DNS de un dominio.                                                                                   |
+| Descripción     | Obtener la huella DNS del dominio.                                                                                     |
 | Evidencia       | https://viewdns.info/dnsreport/ + [DNS](/evidencias/dominios-subd-huella-dns/dns.png)                                  |
 | Fecha evidencia | [29-01-2026]                                                                                                           |
 | Impacto         | Permite a un atacante mapear el dominio y que servicios están expuestos.                                               |
@@ -288,11 +284,11 @@ Tabla de fuentes:
 ### 5.4 Huella documental y metadatos (documentos públicos)
 <!-- AYUDA (BORRAR): Documentos públicos y metadatos relevantes (autor, software, rutas, fechas). Adjuntad evidencia. -->
 
-- A-08
+- A-09
 
 | Campo           | Contenido                                                                                                                                                      |
 | --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ID              | A-08                                                                                                                                                           |
+| ID              | A-09                                                                                                                                                           |
 | Categoría       | Documentos-Metadatos                                                                                                                                           |
 | Descripción     | Usando la busqueda site:https://www.hospitalespascual.com/ filetype:pdf, se puede obtener un documento pdf con varios metadatos como Autor y herramienta usada |
 | Evidencia       | [https://www.hospitalespascual.com/wp-content/uploads/2024/09/POLITICA-DE-MEDIOAMBIENTE44.pdf] + evidencias\huella\2026-01-29_politica.png                     |
@@ -301,11 +297,11 @@ Tabla de fuentes:
 | Riesgo          | Bajo                                                                                                                                                           |
 | Recomendación   | Asegurarse de que no se guarden metadatos de información sensible                                                                                              |
 
-- A-09
-- 
+- A-10
+
 | Campo           | Contenido                                                                                                                               |
 | --------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| ID              | A-09                                                                                                                                    |
+| ID              | A-10                                                                                                                                    |
 | Categoría       | Huella documental                                                                                                                       |
 | Descripción     | Documento BOJA de un convenio colectivo de hospitalespascual                                                                            |
 | Evidencia       | https://www.juntadeandalucia.es/boja/2018/78/BOJA18-078-00015-7083-01_00134471.pdf + [BOJA PDF](/evidencias/huella-documental/BOJA.png) |
@@ -316,11 +312,11 @@ Tabla de fuentes:
 
 ### 5.5 Brechas y filtraciones (consulta pasiva)
 <!-- AYUDA (BORRAR): Aparición del dominio/correos en brechas conocidas. No incluyáis contraseñas. Priorizad mitigaciones (2FA, rotación, etc.). -->
-- A-10
+- A-11
 
 | Campo           | Contenido                                                                                                                                                 |
 | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ID              | A-10                                                                                                                                                      |
+| ID              | A-11                                                                                                                                                      |
 | Categoría       | Brechas                                                                                                                                                   |
 | Descripción     | Si navegamos por la web de la clínica con la consola de las devtools abierta, podemos observar notificaciones de tecnologías específicas y sus versiones. |
 | Evidencia       | https://www.hospitalespascual.com + [01-Wordpress.png](/evidencias/brechas-y-filtraciones/01-Wordpress.png)                                               |
@@ -329,11 +325,11 @@ Tabla de fuentes:
 | Riesgo          | Medio                                                                                                                                                     |
 | Recomendación   | Evitar la exposición de tecnologías en la medida de lo posible.                                                                                           |
 
-- A-11
+- A-12
 
 | Campo           | Contenido                                                                                                                                                 |
 | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ID              | A-11                                                                                                                                                      |
+| ID              | A-12                                                                                                                                                      |
 | Categoría       | Brechas                                                                                                                                                   |
 | Descripción     | Si navegamos por la web de la clínica con la consola de las devtools abierta, podemos observar notificaciones de tecnologías específicas y sus versiones. |
 | Evidencia       | https://www.hospitalespascual.com + [02-Jquery.png](/evidencias/brechas-y-filtraciones/02-Jquery.png)                                                     |
@@ -342,11 +338,11 @@ Tabla de fuentes:
 | Riesgo          | Medio                                                                                                                                                     |
 | Recomendación   | Evitar la exposición de tecnologías en la medida de lo posible.                                                                                           |
 
-- A-12
+- A-13
 
 | Campo           | Contenido                                                                                                                                                    |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ID              | A-12                                                                                                                                                         |
+| ID              | A-13                                                                                                                                                         |
 | Categoría       | Brechas                                                                                                                                                      |
 | Descripción     | Busqueda en Google de la web de la "Clínica de San Rafael de Cádiz", y vamos a la sección de "Equipo humano” se puede ver una lista con todos los empleados. |
 | Evidencia       | [https://www.hospitalespascual.com/hospital-san-rafael/] + evidencias\identidades digitales\A-01\2026-01-29_web.png                                          |
@@ -355,11 +351,11 @@ Tabla de fuentes:
 | Riesgo          | Alto                                                                                                                                                         |
 | Recomendación   | Remover la seccion de Equipo humano                                                                                                                          |
 
-- A-13
+- A-14
 
 | Campo           | Contenido                                                                                                                                                                   |
 | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ID              | A-0X2                                                                                                                                                                       |
+| ID              | A-14                                                                                                                                                                        |
 | Categoría       | Brechas                                                                                                                                                                     |
 | Descripción     | Busqueda en Google de la web de la "Clínica de San Rafael de Cádiz", y vamos a la sección de "Directorio” se puede ver información de la distribución de las instalaciones. |
 | Evidencia       | [https://www.hospitalespascual.com/hospital-san-rafael/] + evidencias\brechas-y-filtraciones\2026-01-29_directorio.png                                                      |
@@ -372,11 +368,22 @@ Tabla de fuentes:
 ## 6. Resumen de riesgos
 <!-- AYUDA (BORRAR): Tabla para priorizar: qué arreglar primero (P1), después (P2) y al final (P3). -->
 
-| ID   | Hallazgo (resumen)                                                                                      | Riesgo | Prioridad | Acción recomendada                                                                                      |
-| ---- | ------------------------------------------------------------------------------------------------------- | ------ | --------- | ------------------------------------------------------------------------------------------------------- |
-| A-01 | Información personal de trabajadores expuesta, facilitando ataques de ingeniería social                 | Alto   | P1        | Limitar la información de los trabajadores y configurar la privacidad de las cuentas de redes sociales. |
-| A-02 | Información profesional del objetivo encontrada en LinkedIn y páginas web, incluyendo fotos con colegas | Alto   | P1        | Revisar la información pública en perfiles profesionales y limitar la exposición de datos laborales.    |
-| A-03 | Información personal en redes sociales (Instagram y Facebook) incluyendo fotos familiares               | Alto   | P1        | Evitar publicar información sensible de familiares y ajustar la privacidad de las cuentas personales.   |
+| ID   | Hallazgo (resumen)                                                                                      | Riesgo | Prioridad | Acción recomendada                                                                                                             |
+| ---- | ------------------------------------------------------------------------------------------------------- | ------ | --------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| A-01 | Información personal de trabajadores expuesta, facilitando ataques de ingeniería social                 | Alto   | P1        | Limitar la información de los trabajadores y configurar la privacidad de las cuentas de redes sociales.                        |
+| A-02 | Información profesional del objetivo encontrada en LinkedIn y páginas web, incluyendo fotos con colegas | Alto   | P1        | Revisar la información pública en perfiles profesionales y limitar la exposición de datos laborales.                           |
+| A-03 | Información sobre Guido Weisman                                                                         | Alto   | P1        | Revisar la información pública en perfiles profesionales y limitar la exposición de datos laborales.                           |
+| A-04 | Información personal en redes sociales (Instagram y Facebook) incluyendo fotos familiares               | Medio  | P2        | Hacer saber a los empleados que estos datos son públicos                                                                       |
+| A-05 | En la guia para el paciente se pueden ver varios telefonos                                              | Bajo   | P3        | Hacer saber a los empleados que estos datos son públicos                                                                       |
+| A-06 | Subdominios observados en fuentes pasivas/históricas.                                                   | Medio  | P2        | Reducir lo que "se puede enumerar"; cerrar subdominios innecesarios, aislar entornos, evitar registros DNS de más entre otras. |
+| A-07 | Obtener detalles clave tanto del dominio como de la ip pública asociada.                                | Bajo   | P3        | No exponer información sensible en Whois activando la privacidad del registrador.                                              |
+| A-08 | Obtener la huella DNS del dominio.                                                                      | Medio  | P2        | Elimina subdominios innecesarios y aísla los entornos dev/staging (VPN o IP allowlist) para reducir la attack surface.         |
+| A-09 | Documento pdf con varios metadatos como autor y herramienta usada                                       | Bajo   | P3        | Asegurarse de que no se guarden metadatos de información sensible                                                              |
+| A-10 | Documento BOJA de un convenio colectivo de hospitalespascual                                            | Bajo   | P3        | Hacer saber al responble de que este documento es público                                                                      |
+| A-11 | Notificaciones de tecnologías específicas y sus versiones. Wordpress                                    | Medio  | P2        | Evitar la exposición de tecnologías en la medida de lo posible.                                                                |
+| A-12 | Notificaciones de tecnologías específicas y sus versiones. Jquery                                       | Medio  | P2        | Evitar la exposición de tecnologías en la medida de lo posible.                                                                |
+| A-13 | Lista de todos los empleados                                                                            | Alto   | P1        | Remover la sección Equipo Humano                                                                                               |
+| A-14 | Distribución de las instalaciones.                                                                      | Medio  | P2        | Remover la sección de Directorio                                                                                               |
 
 
 ## 7. Conclusiones
@@ -385,21 +392,41 @@ Tabla de fuentes:
 - **Transparencia física excesiva:** La disponibilidad pública de directorios y planos del edificio reduce la barrera de entrada para operaciones de seguridad física o reconocimiento presencial, eliminando la necesidad de reconocimiento activo arriesgado.
 - **Huella técnica y documental descuidada:** La presencia de subdominios olvidados, versiones de software expuestas y metadatos en documentos PDF revela una falta de higiene digital que podría servir como punto de entrada inicial para comprometer la infraestructura tecnológica.
 
+
 ## 8. Recomendaciones
-<!-- AYUDA (BORRAR): Convertid hallazgos en acciones concretas. Si podéis, asignad responsable sugerido (IT/Seguridad/RRHH/Comunicacion). -->
 
-**Quick wins (0-30 días)**
-<!-- AYUDA (BORRAR): Cambios rápidos: retirar/editar documentos, sanear metadatos, ajustar contenidos públicos, concienciación inmediata. -->
-- [..]
-- [..]
+### Quick wins (0-30 días)
+- Limitar la información visible en la sección “Equipo humano” y “Directorio” de la web (A-01, A-13, A-14).  
+  **Responsable:** Comunicación / IT
+- Configurar la privacidad de las cuentas de redes sociales de los empleados, especialmente de directivos y personal visible públicamente (A-01, A-03).  
+  **Responsable:** RRHH / Seguridad
+- Retirar o anonimizar metadatos de documentos públicos y PDFs antes de publicarlos en la web (A-09, A-10).  
+  **Responsable:** IT / Comunicación
+- Avisar al personal sobre la exposición pública de datos de contacto (emails, teléfonos) y la importancia de la concienciación frente a ingeniería social (A-04, A-05).  
+  **Responsable:** RRHH / Seguridad
+- Evitar que la web muestre versiones de tecnologías y plugins que podrían permitir identificar brechas (A-11, A-12).  
+  **Responsable:** IT
 
-**Medio plazo (1-3 meses)**
-<!-- AYUDA (BORRAR): Cambios estructurales: políticas de publicación, revisión periódica, procesos, formación, controles de identidad. -->
-- [..]
+### Medio plazo (1-3 meses)
+- Revisar y centralizar la publicación de información profesional en LinkedIn y otras plataformas; establecer políticas de visibilidad y control de perfiles (A-02, A-03).  
+  **Responsable:** RRHH / Comunicación
+- Reducir la exposición de subdominios y servicios innecesarios en el DNS; aislar entornos de desarrollo y staging mediante VPN o listas de IP (A-06, A-08).  
+  **Responsable:** IT
+- Activar privacidad en Whois y evitar exponer datos sensibles del dominio (A-07).  
+  **Responsable:** IT
+- Establecer procedimientos periódicos de revisión de contenidos publicados, documentos y perfiles profesionales para mantener la información actualizada y segura.  
+  **Responsable:** IT / Seguridad / RRHH
 
-**Mejora continua**
-<!-- AYUDA (BORRAR): Medidas recurrentes: monitorización de menciones, revisiones trimestrales de exposición, playbook OSINT. -->
-- [..]
+### Mejora continua
+- Implementar un plan de monitorización de menciones y exposición digital de empleados y del hospital para detectar riesgos emergentes.  
+  **Responsable:** Seguridad / Comunicación
+- Revisiones trimestrales de la superficie de exposición OSINT de la organización.  
+  **Responsable:** Seguridad / IT
+- Desarrollar un playbook OSINT interno con procedimientos claros de mitigación frente a filtraciones, ingeniería social y exposición de datos.  
+  **Responsable:** Seguridad / IT
+- Formar continuamente al personal sobre riesgos de seguridad digital, ingeniería social y buenas prácticas en redes sociales y publicación de información.  
+  **Responsable:** RRHH / Seguridad
+
 
 ## 9. Anexos
 <!-- AYUDA (BORRAR): Trazabilidad. Esta sección facilita la corrección: fuentes, consultas y evidencias enlazadas. -->
@@ -450,4 +477,15 @@ Tabla de fuentes:
 <!-- AYUDA (BORRAR): Ejemplo de enlace: `[2026-01-27 - Google - PDF organigrama](../evidencias/2026-01-27_google_organigrama.pdf)` -->
 
 - `evidencias/`:
-  - `YYYY-MM-DD_fuente_tema.ext` - [descripción]
+  - `brechas-y-filtraciones/`
+    - `01-Wordpress.png` - 
+    - `02-Jquery.png` - 
+    - `2026-01-29_directorio.png` - 
+  - `contacto/`
+    - 
+  - `dominios-subd-huella-dns/`
+    - 
+  - `huella-documental/`
+    - 
+  - `identidades-digitales/`
+    - 
