@@ -183,6 +183,21 @@ Formato recomendado por hallazgo:
 
 - A-02
 
+
+
+
+| Campo           | Contenido |
+|-----------------|-----------|
+| ID              | A-02 |
+| Categoría       | Identidad |
+| Descripción     | Se recopiló información detallada sobre el Dr. Pascual Espinosa a partir de fuentes públicas. En una página web informativa se describe su perfil profesional como médico especialista en Traumatología y Medicina Familiar y Comunitaria, su actividad como traumatólogo y cirujano ortopédico en distintos centros hospitalarios de Cádiz, así como sus áreas de especialización quirúrgica. Durante la investigación OSINT también se localizaron su perfil de LinkedIn, vídeos en redes sociales, artículos publicados en otras páginas web y su registro como profesional sanitario en diversas aseguradoras médicas. |
+| Evidencia       |https://www.topdoctors.es/doctor/jose-manuel-pascual-espinosa/ + https://www.linkedin.com/in/jose-manuel-pascual-espinosa-aaa5711b/ + [evidencia – captura perfil profesional](../evidencias/identidades-digitales/A-02/2026-01-29-aseguradora.PNG) + [evidencia – captura instagram](../evidencias/identidades-digitales/A-02/2026-01-29-instagram.PNG) +[evidencia – captura linkedin](../evidencias/identidades-digitales/A-02/2026-01-29-linkedin.PNG) + [evidencia – captura TOPDOCTORS](../evidencias/identidades-digitales/A-02/2026-01-29-TOPDOCTORS.PNG) |
+| Fecha evidencia | 2026-01-29 |
+| Impacto         | La agregación de información procedente de múltiples fuentes permite a un atacante construir un perfil exhaustivo del médico, facilitando ataques de ingeniería social altamente dirigidos, suplantación de identidad profesional y campañas de phishing personalizadas. |
+| Riesgo          | Medio |
+| Recomendación   | Centralizar y controlar la información profesional publicada, reducir la exposición innecesaria en redes sociales, revisar la visibilidad de perfiles profesionales y reforzar la formación del personal sanitario frente a ataques de ingeniería social. |
+
+
 ### 5.2 Datos de contacto (emails, teléfonos, estructuras)
 <!-- AYUDA (BORRAR): Patrones de correo (si se infieren), teléfonos publicados, extensiones, formularios de contacto y riesgos asociados. -->
 
@@ -286,6 +301,9 @@ Formato recomendado por hallazgo:
 | Recomendación   | Remover la seccion de Equipo humano                                                                                                                          |
 
 - A-09
+
+
+
 
 ## 6. Resumen de riesgos
 <!-- AYUDA (BORRAR): Tabla para priorizar: qué arreglar primero (P1), después (P2) y al final (P3). -->
