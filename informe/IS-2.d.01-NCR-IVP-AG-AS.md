@@ -187,6 +187,18 @@ Formato recomendado por hallazgo:
 <!-- AYUDA (BORRAR): Patrones de correo (si se infieren), teléfonos publicados, extensiones, formularios de contacto y riesgos asociados. -->
 
 - A-03
+
+| Campo | Contenido |
+| --- | --- |
+| ID | A-03 |
+| Categoría | Contacto |
+| Descripción | En la guia de usuario se pueden ver varios datos de contacto |
+| Evidencia | [https://www.hospitalespascual.com/wp-content/uploads/2024/03/guia-del-usuario_San-Rafael_Com.pdf]+ evidencias\contacto\2026-01-29_guia1.png + evidencias\contacto\2026-01-29_guia2.png |
+| Fecha evidencia | [2026-01-29] |
+| Impacto | Saber todos los empleados que trabajan en el hospital |
+| Riesgo | Alto |
+| Recomendación | Remover la seccion de Equipo humano |
+
 - A-04
 
 ### 5.3 Dominios, subdominios y huella DNS (pasivo)
