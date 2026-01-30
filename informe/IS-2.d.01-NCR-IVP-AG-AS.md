@@ -342,6 +342,19 @@ Formato recomendado por hallazgo:
 | Riesgo          | Alto                                                                                                                                                         |
 | Recomendación   | Remover la seccion de Equipo humano                                                                                                                          |
 
+- A-0X2
+
+| Campo | Contenido |
+| --- | --- |
+| ID | A-0X2 |
+| Categoría | Brechas |
+| Descripción | Busqueda en Google de la web de la "Clínica de San Rafael de Cádiz", y vamos a la sección de "Directorio” se puede ver información de la distribución de las instalaciones. |
+| Evidencia | [https://www.hospitalespascual.com/hospital-san-rafael/] + evidencias\brechas-y-filtraciones\2026-01-29_directorio.png |
+| Fecha evidencia | [2026-01-29] |
+| Impacto | Saber la estructura del edificio |
+| Riesgo | Medio |
+| Recomendación | Remover la seccion de Directorio |
+
 - A-09
 
 ## 6. Resumen de riesgos
