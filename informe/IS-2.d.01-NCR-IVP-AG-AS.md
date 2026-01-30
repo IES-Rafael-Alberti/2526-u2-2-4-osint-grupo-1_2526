@@ -97,7 +97,7 @@ Tabla de fuentes:
   - site:hospitalespascual.com filetype:pdf
   - "@hospitalespascual" -site:hospitalespascual.com
 
-- Evidencias: TODO
+- Evidencias:
   - Guardar capturas o PDFs en `evidencias/` con nombres: `YYYY-MM-DD_fuente_tema.ext`
   - Registrar URL (y, cuando sea útil, captura) y fecha de acceso en cada hallazgo.
   - Toda evidencia mencionada en el informe debe estar enlazada (URL y/o ruta relativa a `evidencias/`).
@@ -151,7 +151,7 @@ Tabla de fuentes:
 | ID              | A-01                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | Categoría       | Identidad                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | Descripción     | Busqueda en Google de la web de la "Clínica de San Rafael de Cádiz", y vamos a la sección de "Equipo humano". Comenienza la busqueda por la primera personal que aparece, el Director médico de cirugía general Ignacio Ortiz Acero [Equipo humano](/evidencias/identidades-digitales/A-01/2026-01-29_web.png). Buscando su nombre en Google nos aparece que también trabaja en la calle García Carrera 41, marcado como consultorio privado [Consulta privada](/evidencias/identidades-digitales/A-01/2026-01-29_doctoralia.png).  En la búsqueda se encuentra una cuenta de Facebook abierta [Facebook](/evidencias/identidades-digitales/A-01/2026-01-29_facebook.png), en la que se confirma que se trata de la misma persona y gracias a la cual obtenemos información familiar, tanto relaciones personasles y académicas de sus hijos, como información de su esposa [Familia](/evidencias/identidades-digitales/A-01/2026-01-29_facebook_familia.jpeg). |
-| Evidencia       | [https://www.doctoralia.es/ignacio-ortiz-acero/cirujano-general/cadiz] Consultorio Privado; Facebook [https://www.facebook.com/ignacio.ortizacero/] ;Evidencias [01-IOA](/evidencias/identidades-digitales/A-01)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Evidencia       | https://www.doctoralia.es/ignacio-ortiz-acero/cirujano-general/cadiz Consultorio Privado; Facebook https://www.facebook.com/ignacio.ortizacero/ ;Evidencias [01-IOA](/evidencias/identidades-digitales/A-01)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | Fecha evidencia | 2026-01-29                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | Impacto         | La web del Hospital proporciona un catálogo con el nombre, apellidos y fotos de los trabajadores, facilitando la búsqueda. El Facebook abierto permite conocer su vida personal y académica, lo que podría ser utilizado para crear ataques de ingeniería social más creíbles, gracias a los datos concretos.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | Riesgo          | Alto                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
@@ -188,29 +188,29 @@ Tabla de fuentes:
 
 - A-04
 
-| Campo           | Contenido                                                                                                                                                                               |
-| --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ID              | A-04                                                                                                                                                                                    |
-| Categoría       | Contacto                                                                                                                                                                                |
-| Descripción     | En la guia de usuario se pueden ver varios datos de contacto                                                                                                                            |
-| Evidencia       | [https://www.hospitalespascual.com/wp-content/uploads/2024/03/guia-del-usuario_San-Rafael_Com.pdf]+ evidencias\contacto\2026-01-29_guia1.png + evidencias\contacto\2026-01-29_guia2.png |
-| Fecha evidencia | [2026-01-29]                                                                                                                                                                            |
-| Impacto         | Saber vectores de ataque para ingenieria social hospital                                                                                                                                |
-| Riesgo          | Medio                                                                                                                                                                                   |
-| Recomendación   | Hacer saber a los empleados que estos datos son públicos                                                                                                                                |
+| Campo           | Contenido                                                                                                                                                                                                  |
+| --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ID              | A-04                                                                                                                                                                                                       |
+| Categoría       | Contacto                                                                                                                                                                                                   |
+| Descripción     | En la guia de usuario se pueden ver varios datos de contacto                                                                                                                                               |
+| Evidencia       | https://www.hospitalespascual.com/wp-content/uploads/2024/03/guia-del-usuario_San-Rafael_Com.pdf + [guia1](/evidencias/contacto/2026-01-29_guia1.png) + [guia2](/evidencias/contacto/2026-01-29_guia2.png) |
+| Fecha evidencia | [2026-01-29]                                                                                                                                                                                               |
+| Impacto         | Saber vectores de ataque para ingenieria social hospital                                                                                                                                                   |
+| Riesgo          | Medio                                                                                                                                                                                                      |
+| Recomendación   | Hacer saber a los empleados que estos datos son públicos                                                                                                                                                   |
 
 - A-05
 
-| Campo           | Contenido                                                                                            |
-| --------------- | ---------------------------------------------------------------------------------------------------- |
-| ID              | A-05                                                                                                 |
-| Categoría       | Contacto                                                                                             |
-| Descripción     | En la guia para el paciente se pueden ver varios telefonos                                           |
-| Evidencia       | [https://www.hospitalespascual.com/guia-para-el-paciente/]+ evidencias\contacto\2026-01-29_guia3.png |
-| Fecha evidencia | [2026-01-29]                                                                                         |
-| Impacto         | Saber vectores de ataque para ingenieria social                                                      |
-| Riesgo          | Bajo                                                                                                 |
-| Recomendación   | Hacer saber a los empleados que estos datos son públicos                                             |
+| Campo           | Contenido                                                                                                    |
+| --------------- | ------------------------------------------------------------------------------------------------------------ |
+| ID              | A-05                                                                                                         |
+| Categoría       | Contacto                                                                                                     |
+| Descripción     | En la guia para el paciente se pueden ver varios telefonos                                                   |
+| Evidencia       | https://www.hospitalespascual.com/guia-para-el-paciente/ + [guia](/evidencias/contacto/2026-01-29_guia3.png) |
+| Fecha evidencia | [2026-01-29]                                                                                                 |
+| Impacto         | Saber vectores de ataque para ingenieria social                                                              |
+| Riesgo          | Bajo                                                                                                         |
+| Recomendación   | Hacer saber a los empleados que estos datos son públicos                                                     |
 
 ### 5.3 Dominios, subdominios y huella DNS (pasivo)
 
@@ -221,7 +221,7 @@ Tabla de fuentes:
 | ID              | A-06                                                                                                                           |
 | Categoría       | Dominio-DNS                                                                                                                    |
 | Descripción     | Subdominios observados en fuentes pasivas/históricas.                                                                          |
-| Evidencia       | https://viewdns.info/subdomains + [Subdominios](/evidencias/dominios-subd-huella-dns/subdominios.png)                          |
+| Evidencia       | https://viewdns.info/subdomains + [Subdominios](/evidencias/dominios-subd-huella-dns/2026-01-29_subdominios.png)               |
 | Fecha evidencia | [29-01-2026]                                                                                                                   |
 | Impacto         | Permite descubrir servicios expuestos, detectar entornos olvidados, identificar tecnologías, localizar APIs entre otras cosas. |
 | Riesgo          | Medio                                                                                                                          |
@@ -234,7 +234,7 @@ Tabla de fuentes:
 | ID              | A-07                                                                                                         |
 | Categoría       | Dominio-DNS                                                                                                  |
 | Descripción     | Whois permite obtener detalles clave tanto del dominio como de la ip pública asociada.                       |
-| Evidencia       | https://viewdns.info/whois/ + [Whois](/evidencias/dominios-subd-huella-dns/WHOIS.png)                        |
+| Evidencia       | https://viewdns.info/whois/ + [Whois](/evidencias/dominios-subd-huella-dns/2026-01-29_WHOIS.png)             |
 | Fecha evidencia | [29-01-2026]                                                                                                 |
 | Impacto         | Permite descubrir información sobre el propietario del dominio, fecha de creación, fecha de expiración, etc. |
 | Riesgo          | Bajo                                                                                                         |
@@ -247,7 +247,7 @@ Tabla de fuentes:
 | ID              | A-08                                                                                                                   |
 | Categoría       | Dominio-DNS                                                                                                            |
 | Descripción     | Obtener la huella DNS del dominio.                                                                                     |
-| Evidencia       | https://viewdns.info/dnsreport/ + [DNS](/evidencias/dominios-subd-huella-dns/dns.png)                                  |
+| Evidencia       | https://viewdns.info/dnsreport/ + [DNS](/evidencias/dominios-subd-huella-dns/2026-01-29_dns.png)                       |
 | Fecha evidencia | [29-01-2026]                                                                                                           |
 | Impacto         | Permite a un atacante mapear el dominio y que servicios están expuestos.                                               |
 | Riesgo          | Medio                                                                                                                  |
@@ -257,29 +257,29 @@ Tabla de fuentes:
 
 - A-09
 
-| Campo           | Contenido                                                                                                                                                      |
-| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ID              | A-09                                                                                                                                                           |
-| Categoría       | Documentos-Metadatos                                                                                                                                           |
-| Descripción     | Usando la busqueda site:https://www.hospitalespascual.com/ filetype:pdf, se puede obtener un documento pdf con varios metadatos como Autor y herramienta usada |
-| Evidencia       | [https://www.hospitalespascual.com/wp-content/uploads/2024/09/POLITICA-DE-MEDIOAMBIENTE44.pdf] + evidencias\huella\2026-01-29_politica.png                     |
-| Fecha evidencia | [2026-01-29]                                                                                                                                                   |
-| Impacto         | Saber herramientas usadas por la empresa                                                                                                                       |
-| Riesgo          | Bajo                                                                                                                                                           |
-| Recomendación   | Asegurarse de que no se guarden metadatos de información sensible                                                                                              |
+| Campo           | Contenido                                                                                                                                                        |
+| --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ID              | A-09                                                                                                                                                             |
+| Categoría       | Documentos-Metadatos                                                                                                                                             |
+| Descripción     | Usando la busqueda site:https://www.hospitalespascual.com/ filetype:pdf, se puede obtener un documento pdf con varios metadatos como Autor y herramienta usada   |
+| Evidencia       | https://www.hospitalespascual.com/wp-content/uploads/2024/09/POLITICA-DE-MEDIOAMBIENTE44.pdf + [politica](/evidencias/huella-documental/2026-01-29_politica.png) |
+| Fecha evidencia | [2026-01-29]                                                                                                                                                     |
+| Impacto         | Saber herramientas usadas por la empresa                                                                                                                         |
+| Riesgo          | Bajo                                                                                                                                                             |
+| Recomendación   | Asegurarse de que no se guarden metadatos de información sensible                                                                                                |
 
 - A-10
 
-| Campo           | Contenido                                                                                                                               |
-| --------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| ID              | A-10                                                                                                                                    |
-| Categoría       | Huella documental                                                                                                                       |
-| Descripción     | Documento BOJA de un convenio colectivo de hospitalespascual                                                                            |
-| Evidencia       | https://www.juntadeandalucia.es/boja/2018/78/BOJA18-078-00015-7083-01_00134471.pdf + [BOJA PDF](/evidencias/huella-documental/BOJA.png) |
-| Fecha evidencia | [2026-01-29]                                                                                                                            |
-| Impacto         | Información  acerca de la empres José Manuel Pascual Pascual S.A (hospitalespascual) social                                             |
-| Riesgo          | Bajo                                                                                                                                    |
-| Recomendación   | Hacer saber al responble de que este documento es público                                                                               |
+| Campo           | Contenido                                                                                                                                          |
+| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ID              | A-10                                                                                                                                               |
+| Categoría       | Huella documental                                                                                                                                  |
+| Descripción     | Documento BOJA de un convenio colectivo de hospitalespascual                                                                                       |
+| Evidencia       | https://www.juntadeandalucia.es/boja/2018/78/BOJA18-078-00015-7083-01_00134471.pdf + [BOJA PDF](/evidencias/huella-documental/2026-01-29_BOJA.png) |
+| Fecha evidencia | [2026-01-29]                                                                                                                                       |
+| Impacto         | Información  acerca de la empres José Manuel Pascual Pascual S.A (hospitalespascual) social                                                        |
+| Riesgo          | Bajo                                                                                                                                               |
+| Recomendación   | Hacer saber al responble de que este documento es público                                                                                          |
 
 ### 5.5 Brechas y filtraciones (consulta pasiva)
 - A-11
@@ -289,7 +289,7 @@ Tabla de fuentes:
 | ID              | A-11                                                                                                                                                      |
 | Categoría       | Brechas                                                                                                                                                   |
 | Descripción     | Si navegamos por la web de la clínica con la consola de las devtools abierta, podemos observar notificaciones de tecnologías específicas y sus versiones. |
-| Evidencia       | https://www.hospitalespascual.com + [01-Wordpress.png](/evidencias/brechas-y-filtraciones/01-Wordpress.png)                                               |
+| Evidencia       | https://www.hospitalespascual.com + [Wordpress](/evidencias/brechas-y-filtraciones/2026-01-29_Wordpress.png)                                              |
 | Fecha evidencia | 2026-01-29                                                                                                                                                |
 | Impacto         | Permite a un atacante identificar brechas de seguridad en la web de la clínica.                                                                           |
 | Riesgo          | Medio                                                                                                                                                     |
@@ -302,7 +302,7 @@ Tabla de fuentes:
 | ID              | A-12                                                                                                                                                      |
 | Categoría       | Brechas                                                                                                                                                   |
 | Descripción     | Si navegamos por la web de la clínica con la consola de las devtools abierta, podemos observar notificaciones de tecnologías específicas y sus versiones. |
-| Evidencia       | https://www.hospitalespascual.com + [02-Jquery.png](/evidencias/brechas-y-filtraciones/02-Jquery.png)                                                     |
+| Evidencia       | https://www.hospitalespascual.com + [Jquery](/evidencias/brechas-y-filtraciones/2026-01-29_Jquery.png)                                                    |
 | Fecha evidencia | 2026-01-29                                                                                                                                                |
 | Impacto         | Permite a un atacante identificar brechas de seguridad en la web de la clínica.                                                                           |
 | Riesgo          | Medio                                                                                                                                                     |
@@ -315,7 +315,7 @@ Tabla de fuentes:
 | ID              | A-13                                                                                                                                                         |
 | Categoría       | Brechas                                                                                                                                                      |
 | Descripción     | Busqueda en Google de la web de la "Clínica de San Rafael de Cádiz", y vamos a la sección de "Equipo humano” se puede ver una lista con todos los empleados. |
-| Evidencia       | [https://www.hospitalespascual.com/hospital-san-rafael/] + evidencias\identidades digitales\A-01\2026-01-29_web.png                                          |
+| Evidencia       | [https://www.hospitalespascual.com/hospital-san-rafael/] + [Web](/evidencias/identidades-digitales/A-01/2026-01-29_web.png)                                  |
 | Fecha evidencia | [2026-01-29]                                                                                                                                                 |
 | Impacto         | Saber todos los empleados que trabajan en el hospital                                                                                                        |
 | Riesgo          | Alto                                                                                                                                                         |
@@ -328,7 +328,7 @@ Tabla de fuentes:
 | ID              | A-14                                                                                                                                                                        |
 | Categoría       | Brechas                                                                                                                                                                     |
 | Descripción     | Busqueda en Google de la web de la "Clínica de San Rafael de Cádiz", y vamos a la sección de "Directorio” se puede ver información de la distribución de las instalaciones. |
-| Evidencia       | [https://www.hospitalespascual.com/hospital-san-rafael/] + evidencias\brechas-y-filtraciones\2026-01-29_directorio.png                                                      |
+| Evidencia       | [https://www.hospitalespascual.com/hospital-san-rafael/] + [Directorio](/evidencias/brechas-y-filtraciones/2026-01-29_directorio.png)                                       |
 | Fecha evidencia | [2026-01-29]                                                                                                                                                                |
 | Impacto         | Saber la estructura del edificio                                                                                                                                            |
 | Riesgo          | Medio                                                                                                                                                                       |
@@ -414,9 +414,9 @@ Tabla de fuentes:
 | Facebook Hospital Pascual          | [https://www.facebook.com/hospitalespascual/videos/3411228055856310/](https://www.facebook.com/hospitalespascual/videos/3411228055856310/)   | 2026/01/30   | Red Social / Video        |
 | TopDoctors José Manuel Pascual     | [https://www.topdoctors.es/doctor/jose-manuel-pascual-espinosa/](https://www.topdoctors.es/doctor/jose-manuel-pascual-espinosa/)             | 2026/01/30   | Consultorio Privado       |
 | Web Hospitales Pascual             | [https://www.hospitalespascual.com/hospital-san-rafael/](https://www.hospitalespascual.com/hospital-san-rafael/)                             | 2026/01/30   | Equipo Humano             |
-| Guia de Usuario                    | [https://www.hospitalespascual.com/wp-content/uploads/2024/03/guia-del-usuario_San-Rafael_Com.pdf]                                           | 2026/01/29   | Contactos                 |
-| Guia para el paciente              | [https://www.hospitalespascual.com/guia-para-el-paciente/]                                                                                   | 2026/01/29   | Contactos                 |
-| Politica de medioambiente          | [https://www.hospitalespascual.com/wp-content/uploads/2024/09/POLITICA-DE-MEDIOAMBIENTE44.pdf]                                               | 2026/01/29   | Metadatos                 |
+| Guia de Usuario                    | https://www.hospitalespascual.com/wp-content/uploads/2024/03/guia-del-usuario_San-Rafael_Com.pdf                                             | 2026/01/29   | Contactos                 |
+| Guia para el paciente              | https://www.hospitalespascual.com/guia-para-el-paciente/                                                                                     | 2026/01/29   | Contactos                 |
+| Politica de medioambiente          | https://www.hospitalespascual.com/wp-content/uploads/2024/09/POLITICA-DE-MEDIOAMBIENTE44.pdf                                                 | 2026/01/29   | Metadatos                 |
 
 
 ### 9.2 Consultas (dorks) empleadas
