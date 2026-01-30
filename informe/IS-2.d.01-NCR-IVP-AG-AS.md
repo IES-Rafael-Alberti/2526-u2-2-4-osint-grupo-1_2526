@@ -197,6 +197,19 @@ Formato recomendado por hallazgo:
 | Impacto         | La agregación de información procedente de múltiples fuentes permite a un atacante construir un perfil exhaustivo del médico, facilitando ataques de ingeniería social altamente dirigidos, suplantación de identidad profesional y campañas de phishing personalizadas.                                                                                                                                                                                                                                                                                                                                                   |
 | Riesgo          | Medio                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | Recomendación   | Centralizar y controlar la información profesional publicada, reducir la exposición innecesaria en redes sociales, revisar la visibilidad de perfiles profesionales y reforzar la formación del personal sanitario frente a ataques de ingeniería social.                                                                                                                                                                                                                                                                                                                                                                  |
+- A-03
+
+
+| Campo           | Contenido |
+|-----------------|-----------|
+| ID              | A-03 |
+| Categoría       | Identidad |
+| Descripción     | A partir de fuentes abiertas se recopiló información sobre Guido Weisman, médico especialista en Traumatología que ejerce en el Hospital San Rafael de Cádiz. Durante la investigación OSINT se localizaron su perfil de LinkedIn, diversas páginas web en las que se hace referencia a su actividad profesional, así como fotografías públicas junto a compañeros de trabajo. Adicionalmente, se identificaron perfiles en redes sociales como Instagram y Facebook, donde se encontraron imágenes de carácter personal que permiten inferir aspectos de su entorno privado. |
+| Evidencia       | [Foto Universidad](../evidencias/identidades-digitales/A-03/2026-01-29-SAM.PNG) · [LinkedIn](../evidencias/identidades-digitales/A-03/2026-01-29-linkedin.PNG) · [Instagram](../evidencias/identidades-digitales/A-03/2026-01-29-instagramm.PNG) · [Facebook](../evidencias/identidades-digitales/A-03/2026-01-29-facebook.PNG) |
+| Fecha evidencia | 2026-01-29 |
+| Impacto         | La correlación de información profesional y personal procedente de múltiples plataformas permite a un atacante construir un perfil exhaustivo del individuo, facilitando ataques de ingeniería social dirigidos, suplantación de identidad profesional y posibles situaciones de acoso o extorsión. |
+| Riesgo          | Alto |
+| Recomendación   | Restringir la visibilidad de perfiles personales en redes sociales, separar la identidad profesional de la privada, evitar la publicación de contenido sensible o familiar y reforzar la concienciación sobre los riesgos asociados a la exposición digital. |
 
 
 ### 5.2 Datos de contacto (emails, teléfonos, estructuras)
