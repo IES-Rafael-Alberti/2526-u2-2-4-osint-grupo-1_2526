@@ -303,6 +303,17 @@ Formato recomendado por hallazgo:
 | Recomendación   | Asegurarse de que no se guarden metadatos de información sensible                                                                                              |
 
 - A-08
+- 
+| Campo           | Contenido                                                                                                                               |
+| --------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| ID              | A-04                                                                                                                                    |
+| Categoría       | Huella documental                                                                                                                       |
+| Descripción     | Documento BOJA de un convenio colectivo de hospitalespascual                                                                            |
+| Evidencia       | https://www.juntadeandalucia.es/boja/2018/78/BOJA18-078-00015-7083-01_00134471.pdf + [BOJA PDF](/evidencias/huella-documental/BOJA.png) |
+| Fecha evidencia | [2026-01-29]                                                                                                                            |
+| Impacto         | Información  acerca de la empres José Manuel Pascual Pascual S.A (hospitalespascual) social                                             |
+| Riesgo          | Bajo                                                                                                                                    |
+| Recomendación   | Hacer saber al responble de que este documento es público                                                                               |
 
 ### 5.5 Brechas y filtraciones (consulta pasiva)
 <!-- AYUDA (BORRAR): Aparición del dominio/correos en brechas conocidas. No incluyáis contraseñas. Priorizad mitigaciones (2FA, rotación, etc.). -->
@@ -347,16 +358,16 @@ Formato recomendado por hallazgo:
 
 - A-0X2
 
-| Campo | Contenido |
-| --- | --- |
-| ID | A-0X2 |
-| Categoría | Brechas |
-| Descripción | Busqueda en Google de la web de la "Clínica de San Rafael de Cádiz", y vamos a la sección de "Directorio” se puede ver información de la distribución de las instalaciones. |
-| Evidencia | [https://www.hospitalespascual.com/hospital-san-rafael/] + evidencias\brechas-y-filtraciones\2026-01-29_directorio.png |
-| Fecha evidencia | [2026-01-29] |
-| Impacto | Saber la estructura del edificio |
-| Riesgo | Medio |
-| Recomendación | Remover la seccion de Directorio |
+| Campo           | Contenido                                                                                                                                                                   |
+| --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ID              | A-0X2                                                                                                                                                                       |
+| Categoría       | Brechas                                                                                                                                                                     |
+| Descripción     | Busqueda en Google de la web de la "Clínica de San Rafael de Cádiz", y vamos a la sección de "Directorio” se puede ver información de la distribución de las instalaciones. |
+| Evidencia       | [https://www.hospitalespascual.com/hospital-san-rafael/] + evidencias\brechas-y-filtraciones\2026-01-29_directorio.png                                                      |
+| Fecha evidencia | [2026-01-29]                                                                                                                                                                |
+| Impacto         | Saber la estructura del edificio                                                                                                                                            |
+| Riesgo          | Medio                                                                                                                                                                       |
+| Recomendación   | Remover la seccion de Directorio                                                                                                                                            |
 
 - A-09
 
