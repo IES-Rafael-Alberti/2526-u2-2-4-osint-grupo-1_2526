@@ -28,10 +28,10 @@ la concienciación del personal sobre los riesgos de la información pública en
 
 **Hallazgos clave (3-7 bullets).**
 
-- A-01A: En la sección de Equipo humano, la Clínica nos proporciona una lista con todos los empleados.  
+- A-13: En la sección de Equipo humano, la Clínica nos proporciona una lista con todos los empleados.  
 - A-01, 02: Se facilita la búsqueda en redes sociales y otras plataformas para su posterior ingeniería social. 
-- A-02X: En la sección "Directorio" se facilita la distribución de las diferentes áres del hospital. 
-- A-05: En los subdominios se observan servicios expuestos, que puede convertirse en un vector de ataque.   
+- A-14: En la sección "Directorio" se facilita la distribución de las diferentes áres del hospital. 
+- A-07: En los subdominios se observan servicios expuestos, que puede convertirse en un vector de ataque.   
 
 **Riesgo global (una frase).**
 
@@ -154,10 +154,7 @@ Tabla de fuentes:
 | https://exif.tools/     | [Metadatos]                   | Extraer Metadatos de un archivo         | evidencias\huella\2026-01-29_politica.png   |
 
 ## 5. Resultados (hallazgos)
-<!-- AYUDA (BORRAR): Parte principal. Cada hallazgo debe ser verificable y tener evidencia enlazada (URL y/o `evidencias/...`). -->
 
-Formato recomendado por hallazgo:
-<!-- AYUDA (BORRAR): Copiad esta tabla por cada hallazgo importante (o adaptadla si preferís una tabla global). -->
 
 | Campo           | Contenido                                                                  |
 | --------------- | -------------------------------------------------------------------------- |
@@ -410,22 +407,22 @@ Formato recomendado por hallazgo:
 ### 9.1 Registro de fuentes
 <!-- AYUDA (BORRAR): Fuentes base consultadas (URL + fecha). No hace falta duplicar cada evidencia si ya está en hallazgos, pero sí lo principal. -->
 
-| Fuente                             | URL                                                                                                         | Fecha acceso | Nota                    |
-| ---------------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------ | ----------------------- |
-| Web Hospitales Pascual, San Rafael | [https://www.hospitalespascual.com/hospital-san-rafael/](https://www.hospitalespascual.com/hospital-san-rafael/) | 2026/01/29   | Equipo Humano, Directorio           |
-| Doctoralia Ignacio Ortiz            | [https://www.doctoralia.es/ignacio-ortiz-acero/cirujano-general/cadiz](https://www.doctoralia.es/ignacio-ortiz-acero/cirujano-general/cadiz) | 2026/01/29   | Consultorio Privado IOA |
-| Facebook Ignacio Ortiz              | [https://www.facebook.com/ignacio.ortizacero/](https://www.facebook.com/ignacio.ortizacero/)                | 2026/01/29   | Red Social              |
-| LinkedIn Guido Weisman             | [https://www.linkedin.com/in/guido-weisman-baa92824b/](https://www.linkedin.com/in/guido-weisman-baa92824b/) | 2026/01/30   | Perfil profesional      |
-| SegurCaixa Adeslas Guido Weisman   | [https://www.segurcaixaadeslas.es/cuadromedico/l/traumatologos/cadiz](https://www.segurcaixaadeslas.es/cuadromedico/l/traumatologos/cadiz) | 2026/01/30   | Cuadro médico           |
-| Facebook Guido Weisman              | [https://www.facebook.com/guidoweis/?locale=es_LA](https://www.facebook.com/guidoweis/?locale=es_LA)       | 2026/01/30   | Red Social              |
-| Instagram Guido Weisman             | [https://www.instagram.com/gugaweis/?hl=es](https://www.instagram.com/gugaweis/?hl=es)                     | 2026/01/30   | Red Social              |
-| LinkedIn José Manuel Pascual        | [https://www.linkedin.com/in/jose-manuel-pascual-espinosa-aaa5711b/](https://www.linkedin.com/in/jose-manuel-pascual-espinosa-aaa5711b/) | 2026/01/30   | Perfil profesional      |
-| Facebook Hospital Pascual           | [https://www.facebook.com/hospitalespascual/videos/3411228055856310/](https://www.facebook.com/hospitalespascual/videos/3411228055856310/) | 2026/01/30   | Red Social / Video      |
-| TopDoctors José Manuel Pascual     | [https://www.topdoctors.es/doctor/jose-manuel-pascual-espinosa/](https://www.topdoctors.es/doctor/jose-manuel-pascual-espinosa/) | 2026/01/30   | Consultorio Privado     |
-| Web Hospitales Pascual              | [https://www.hospitalespascual.com/hospital-san-rafael/](https://www.hospitalespascual.com/hospital-san-rafael/) | 2026/01/30   | Equipo Humano           |
-| Guia de Usuario                           | [https://www.hospitalespascual.com/wp-content/uploads/2024/03/guia-del-usuario_San-Rafael_Com.pdf]                         | 2026/01/29   | Contactos              |
-| Guia para el paciente                           | [https://www.hospitalespascual.com/guia-para-el-paciente/]                         | 2026/01/29   | Contactos              |
-| Politica de medioambiente                           | [https://www.hospitalespascual.com/wp-content/uploads/2024/09/POLITICA-DE-MEDIOAMBIENTE44.pdf]                         | 2026/01/29   | Metadatos              |
+| Fuente                             | URL                                                                                                                                          | Fecha acceso | Nota                      |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------- |
+| Web Hospitales Pascual, San Rafael | [https://www.hospitalespascual.com/hospital-san-rafael/](https://www.hospitalespascual.com/hospital-san-rafael/)                             | 2026/01/29   | Equipo Humano, Directorio |
+| Doctoralia Ignacio Ortiz           | [https://www.doctoralia.es/ignacio-ortiz-acero/cirujano-general/cadiz](https://www.doctoralia.es/ignacio-ortiz-acero/cirujano-general/cadiz) | 2026/01/29   | Consultorio Privado IOA   |
+| Facebook Ignacio Ortiz             | [https://www.facebook.com/ignacio.ortizacero/](https://www.facebook.com/ignacio.ortizacero/)                                                 | 2026/01/29   | Red Social                |
+| LinkedIn Guido Weisman             | [https://www.linkedin.com/in/guido-weisman-baa92824b/](https://www.linkedin.com/in/guido-weisman-baa92824b/)                                 | 2026/01/30   | Perfil profesional        |
+| SegurCaixa Adeslas Guido Weisman   | [https://www.segurcaixaadeslas.es/cuadromedico/l/traumatologos/cadiz](https://www.segurcaixaadeslas.es/cuadromedico/l/traumatologos/cadiz)   | 2026/01/30   | Cuadro médico             |
+| Facebook Guido Weisman             | [https://www.facebook.com/guidoweis/?locale=es_LA](https://www.facebook.com/guidoweis/?locale=es_LA)                                         | 2026/01/30   | Red Social                |
+| Instagram Guido Weisman            | [https://www.instagram.com/gugaweis/?hl=es](https://www.instagram.com/gugaweis/?hl=es)                                                       | 2026/01/30   | Red Social                |
+| LinkedIn José Manuel Pascual       | [https://www.linkedin.com/in/jose-manuel-pascual-espinosa-aaa5711b/](https://www.linkedin.com/in/jose-manuel-pascual-espinosa-aaa5711b/)     | 2026/01/30   | Perfil profesional        |
+| Facebook Hospital Pascual          | [https://www.facebook.com/hospitalespascual/videos/3411228055856310/](https://www.facebook.com/hospitalespascual/videos/3411228055856310/)   | 2026/01/30   | Red Social / Video        |
+| TopDoctors José Manuel Pascual     | [https://www.topdoctors.es/doctor/jose-manuel-pascual-espinosa/](https://www.topdoctors.es/doctor/jose-manuel-pascual-espinosa/)             | 2026/01/30   | Consultorio Privado       |
+| Web Hospitales Pascual             | [https://www.hospitalespascual.com/hospital-san-rafael/](https://www.hospitalespascual.com/hospital-san-rafael/)                             | 2026/01/30   | Equipo Humano             |
+| Guia de Usuario                    | [https://www.hospitalespascual.com/wp-content/uploads/2024/03/guia-del-usuario_San-Rafael_Com.pdf]                                           | 2026/01/29   | Contactos                 |
+| Guia para el paciente              | [https://www.hospitalespascual.com/guia-para-el-paciente/]                                                                                   | 2026/01/29   | Contactos                 |
+| Politica de medioambiente          | [https://www.hospitalespascual.com/wp-content/uploads/2024/09/POLITICA-DE-MEDIOAMBIENTE44.pdf]                                               | 2026/01/29   | Metadatos                 |
 
 
 ### 9.2 Consultas (dorks) empleadas
