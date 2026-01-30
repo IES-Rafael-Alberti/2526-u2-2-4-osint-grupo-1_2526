@@ -86,10 +86,10 @@ Tabla de fuentes:
 
 | Categoría  | Fuente/Herramienta                       | Qué se busca                | Notas (pasivo)              |
 | ---------- | ---------------------------------------- | --------------------------- | --------------------------- |
-| Buscadores | Google / Yandex / DuckDuckGo             | menciones, PDFs, indexación | dorks sin acceder a paneles |
+| Buscadores | Google             | menciones, PDFs, indexación | dorks sin acceder a paneles |
 | Dominios   | WHOIS, viewdns                           | datos de registro           | solo consulta pública       |
 | DNS pasivo | dnsdumpster, viewdns                     | subdominios/histórico       | sin enumeración activa      |
-| RRSS       | LinkedIn/X/Facebook/Instagram/TopDoctors | perfiles, roles, nicks      | solo contenido público      |
+| RRSS       | LinkedIn/Facebook/Instagram/TopDoctors | perfiles, roles, nicks      | solo contenido público      |
 | Metadatos  | exiftool                                 | autores, rutas, software    | sobre ficheros públicos     |
 
 ### 3.3 Adquisición (recopilación)
