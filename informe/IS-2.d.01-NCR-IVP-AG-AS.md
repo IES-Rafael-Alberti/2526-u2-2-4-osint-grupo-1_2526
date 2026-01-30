@@ -453,10 +453,31 @@ Formato recomendado por hallazgo:
     - `02-Jquery.png` - 
     - `2026-01-29_directorio.png` - 
   - `contacto/`
-    - 
+    - `2026-01-29_guia1.png` -
+    - `2026-01-29_guia2.png` -
+    - `2026-01-29_guia3.png` -
   - `dominios-subd-huella-dns/`
-    - 
+    - `certificadosSSL.png` -
+    - `dns.png` -
+    - `subdominios.png` -
+    - `WHOIS.png` -
   - `huella-documental/`
-    - 
+    - `2026-01-29_politica.png` -
+    - `BOJA.png` -
   - `identidades-digitales/`
-    - 
+    - `A-01`
+      - `2026-01-29_doctoralia` -
+      - `2026-01-29_facebook_familia` -
+      - `2026-01-29_facebook` -
+      - `2026-01-29_web` -
+    - `A-02`
+      - `2026-01-29-aseguradora` -
+      - `2026-01-29-instagram` -
+      - `2026-01-29-linkedin` -
+      - `2026-01-29-TOPDOCTORS` -
+    - `A-03`
+      - `2026-01-29-facebook` -
+      - `2026-01-29-instagram` -
+      - `2026-01-29-instagramm` -
+      - `2026-01-29-linkedin` -
+      - `2026-01-29-SAM` -
