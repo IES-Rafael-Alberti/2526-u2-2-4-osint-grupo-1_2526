@@ -380,7 +380,7 @@ Formato recomendado por hallazgo:
 | A-01 | Información personal de trabajadores expuesta, facilitando ataques de ingeniería social               | Alto   | P1        | Limitar la información de los trabajadores y configurar la privacidad de las cuentas de redes sociales.           |
 | A-02 | Información profesional del objetivo encontrada en LinkedIn y páginas web, incluyendo fotos con colegas | Alto   | P1        | Revisar la información pública en perfiles profesionales y limitar la exposición de datos laborales.              |
 | A-03 | Información personal en redes sociales (Instagram y Facebook) incluyendo fotos familiares             | Alto   | P1        | Evitar publicar información sensible de familiares y ajustar la privacidad de las cuentas personales.             |
-                                                                                          |
+
 
 ## 7. Conclusiones
 <!-- AYUDA (BORRAR): 3-6 bullets: qué superficie pública existía y qué vector pudo facilitar. Sin repetir texto, aportad síntesis. -->
