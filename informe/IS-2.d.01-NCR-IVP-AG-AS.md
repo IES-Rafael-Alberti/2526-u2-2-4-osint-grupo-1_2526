@@ -27,23 +27,23 @@ la concienciación del personal sobre los riesgos de la información pública en
 **Objetivo.** Determinar qué información pública existía (antes del incidente supuesto) que podría haber facilitado la fase de reconocimiento de un atacante: identidades digitales, contactos, dominios/subdominios, huella documental (metadatos), menciones públicas y exposiciones derivadas.
 
 **Hallazgos clave (3-7 bullets).**
-<!-- AYUDA (BORRAR): Elegid solo lo más relevante (lo que facilita ingeniería social/reconocimiento). -->
+
 - A-01A: En la sección de Equipo humano, la Clínica nos proporciona una lista con todos los empleados.  
 - A-01, 02: Se facilita la búsqueda en redes sociales y otras plataformas para su posterior ingeniería social. 
 - A-02X: En la sección "Directorio" se facilita la distribución de las diferentes áres del hospital. 
 - A-05: En los subdominios se observan servicios expuestos, que puede convertirse en un vector de ataque.   
 
 **Riesgo global (una frase).**
-<!-- AYUDA (BORRAR): Un diagnóstico breve: nivel + causa principal. -->
-- El riesgo global es alto debido a la gran cantidad de información que se puede obtener de la página web de la clínica, lo que facilita la labor de un atacante a la hora de preparar un ataque. 
+
+- El riesgo global es alto, debido a la exposición detallada de la estructura organizativa y datos personales del equipo médico, lo que aumenta críticamente la superficie para ataques de ingeniería social dirigidos. 
 
 **Recomendaciones prioritarias (3-5 bullets).**
-<!-- AYUDA (BORRAR): Acciones concretas, medibles y alineadas con los hallazgos. -->
+
 - **Limitar la exposición de información del personal:** Retirar los listados completos de empleados de la web y concienciar a la plantilla sobre la privacidad en redes sociales para prevenir ataques de ingeniería social.
 - **Ocultar detalles de la infraestructura física:** Eliminar planos o directorios detallados de las instalaciones en fuentes públicas para no facilitar el reconocimiento físico.
 - **Reducir la superficie de ataque técnica:** Ocultar versiones de tecnologías (WordPress, jQuery) y revisar subdominios expuestos para asegurar que no revelan entornos vulnerables.
 - **Sanitización de documentos y metadatos:** Establecer un procedimiento de limpieza de metadatos (usuarios, software) en archivos públicos (PDF) y revisar guías de usuario para no exponer contactos internos.
-- **Protección de registros de dominio:** Activar la privacidad en los registros WHOIS para ocultar datos administrativos y técnicos del dominio.
+- **Protección de registros de dominio:** Activar la privacidad en los registros para ocultar datos administrativos y técnicos del dominio.
 
 ## 2. Alcance, supuestos y reglas de compromiso
 <!-- AYUDA (BORRAR): Dejad claro QUÉ se ha hecho y QUÉ no (para demostrar OSINT pasivo). Indicad supuestos y límites. -->
@@ -375,12 +375,12 @@ Formato recomendado por hallazgo:
 ## 6. Resumen de riesgos
 <!-- AYUDA (BORRAR): Tabla para priorizar: qué arreglar primero (P1), después (P2) y al final (P3). -->
 
-| ID   | Hallazgo (resumen)                                                                                     | Riesgo | Prioridad | Acción recomendada                                                                                                  |
-| ---- | ------------------------------------------------------------------------------------------------------ | ------ | --------- | ------------------------------------------------------------------------------------------------------------------- |
-| A-01 | Información personal de trabajadores expuesta, facilitando ataques de ingeniería social               | Alto   | P1        | Limitar la información de los trabajadores y configurar la privacidad de las cuentas de redes sociales.           |
-| A-02 | Información profesional del objetivo encontrada en LinkedIn y páginas web, incluyendo fotos con colegas | Alto   | P1        | Revisar la información pública en perfiles profesionales y limitar la exposición de datos laborales.              |
-| A-03 | Información personal en redes sociales (Instagram y Facebook) incluyendo fotos familiares             | Alto   | P1        | Evitar publicar información sensible de familiares y ajustar la privacidad de las cuentas personales.             |
-                                                                                          |
+| ID   | Hallazgo (resumen)                                                                                      | Riesgo | Prioridad | Acción recomendada                                                                                      |
+| ---- | ------------------------------------------------------------------------------------------------------- | ------ | --------- | ------------------------------------------------------------------------------------------------------- |
+| A-01 | Información personal de trabajadores expuesta, facilitando ataques de ingeniería social                 | Alto   | P1        | Limitar la información de los trabajadores y configurar la privacidad de las cuentas de redes sociales. |
+| A-02 | Información profesional del objetivo encontrada en LinkedIn y páginas web, incluyendo fotos con colegas | Alto   | P1        | Revisar la información pública en perfiles profesionales y limitar la exposición de datos laborales.    |
+| A-03 | Información personal en redes sociales (Instagram y Facebook) incluyendo fotos familiares               | Alto   | P1        | Evitar publicar información sensible de familiares y ajustar la privacidad de las cuentas personales.   |
+
 
 ## 7. Conclusiones
 <!-- AYUDA (BORRAR): 3-6 bullets: qué superficie pública existía y qué vector pudo facilitar. Sin repetir texto, aportad síntesis. -->
@@ -411,11 +411,19 @@ Formato recomendado por hallazgo:
 ### 9.1 Registro de fuentes
 <!-- AYUDA (BORRAR): Fuentes base consultadas (URL + fecha). No hace falta duplicar cada evidencia si ya está en hallazgos, pero sí lo principal. -->
 
-| Fuente                             | URL                                                                    | Fecha acceso | Nota                    |
-| ---------------------------------- | ---------------------------------------------------------------------- | ------------ | ----------------------- |
-| Web Hospitales Pascual, San Rafael | [(https://www.hospitalespascual.com/hospital-san-rafael/)]             | 2026/01/29   | Equipo Humano, Directorio           |
-| Doctoralia                         | [https://www.doctoralia.es/ignacio-ortiz-acero/cirujano-general/cadiz] | 2026/01/29   | Consultorio Privado IOA |
-| Facebook                           | [https://www.facebook.com/ignacio.ortizacero/]                         | 2026/01/29   | Red Social              |
+| Fuente                             | URL                                                                                                         | Fecha acceso | Nota                    |
+| ---------------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------ | ----------------------- |
+| Web Hospitales Pascual, San Rafael | [https://www.hospitalespascual.com/hospital-san-rafael/](https://www.hospitalespascual.com/hospital-san-rafael/) | 2026/01/29   | Equipo Humano, Directorio           |
+| Doctoralia Ignacio Ortiz            | [https://www.doctoralia.es/ignacio-ortiz-acero/cirujano-general/cadiz](https://www.doctoralia.es/ignacio-ortiz-acero/cirujano-general/cadiz) | 2026/01/29   | Consultorio Privado IOA |
+| Facebook Ignacio Ortiz              | [https://www.facebook.com/ignacio.ortizacero/](https://www.facebook.com/ignacio.ortizacero/)                | 2026/01/29   | Red Social              |
+| LinkedIn Guido Weisman             | [https://www.linkedin.com/in/guido-weisman-baa92824b/](https://www.linkedin.com/in/guido-weisman-baa92824b/) | 2026/01/30   | Perfil profesional      |
+| SegurCaixa Adeslas Guido Weisman   | [https://www.segurcaixaadeslas.es/cuadromedico/l/traumatologos/cadiz](https://www.segurcaixaadeslas.es/cuadromedico/l/traumatologos/cadiz) | 2026/01/30   | Cuadro médico           |
+| Facebook Guido Weisman              | [https://www.facebook.com/guidoweis/?locale=es_LA](https://www.facebook.com/guidoweis/?locale=es_LA)       | 2026/01/30   | Red Social              |
+| Instagram Guido Weisman             | [https://www.instagram.com/gugaweis/?hl=es](https://www.instagram.com/gugaweis/?hl=es)                     | 2026/01/30   | Red Social              |
+| LinkedIn José Manuel Pascual        | [https://www.linkedin.com/in/jose-manuel-pascual-espinosa-aaa5711b/](https://www.linkedin.com/in/jose-manuel-pascual-espinosa-aaa5711b/) | 2026/01/30   | Perfil profesional      |
+| Facebook Hospital Pascual           | [https://www.facebook.com/hospitalespascual/videos/3411228055856310/](https://www.facebook.com/hospitalespascual/videos/3411228055856310/) | 2026/01/30   | Red Social / Video      |
+| TopDoctors José Manuel Pascual     | [https://www.topdoctors.es/doctor/jose-manuel-pascual-espinosa/](https://www.topdoctors.es/doctor/jose-manuel-pascual-espinosa/) | 2026/01/30   | Consultorio Privado     |
+| Web Hospitales Pascual              | [https://www.hospitalespascual.com/hospital-san-rafael/](https://www.hospitalespascual.com/hospital-san-rafael/) | 2026/01/30   | Equipo Humano           |
 | Guia de Usuario                           | [https://www.hospitalespascual.com/wp-content/uploads/2024/03/guia-del-usuario_San-Rafael_Com.pdf]                         | 2026/01/29   | Contactos              |
 | Guia para el paciente                           | [https://www.hospitalespascual.com/guia-para-el-paciente/]                         | 2026/01/29   | Contactos              |
 | Politica de medioambiente                           | [https://www.hospitalespascual.com/wp-content/uploads/2024/09/POLITICA-DE-MEDIOAMBIENTE44.pdf]                         | 2026/01/29   | Metadatos              |
@@ -426,9 +434,19 @@ Formato recomendado por hallazgo:
 
 (Registrar aquí las consultas utilizadas. Evitar incluir acciones activas o instrucciones de acceso.)
 
-- `site:[dominio] filetype:pdf [palabra clave]`
-- `site:[dominio] "@[dominio]"`
-- `"Clínica San Rafael" "Cádiz" [palabra clave]`
+- site:hospitalespascual.com filetype:pdf "San Rafael"
+- site:hospitalespascual.com "equipo humano"
+- site:linkedin.com "Ignacio Ortiz Acero"
+- site:linkedin.com "Guido Weisman"
+- site:linkedin.com "José Manuel Pascual Espinosa"
+- site:facebook.com "Ignacio Ortiz Acero"
+- site:facebook.com "Guido Weisman"
+- site:facebook.com "Hospitales Pascual"
+- site:instagram.com "gugaweis"
+- site:topdoctors.es "José Manuel Pascual Espinosa"
+- site:segurcaixaadeslas.es "traumatologos Cádiz"
+- "Clínica San Rafael" "Cádiz" "información personal"
+- "Clínica San Rafael" "Cádiz" "equipo médico"
 
 ### 9.3 Evidencias (índice)
 <!-- AYUDA (BORRAR): Índice con enlaces relativos a ficheros dentro de `evidencias/`. Debe permitir abrir cada evidencia sin buscar. -->
