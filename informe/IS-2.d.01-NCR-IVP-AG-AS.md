@@ -478,35 +478,35 @@ Tabla de fuentes:
 
 - `evidencias/`:
   - `brechas-y-filtraciones/`
-    - `01-Wordpress.png` - 
-    - `02-Jquery.png` - 
-    - `2026-01-29_directorio.png` - 
+    - `01-Wordpress.png` - prueba de que la web usa WordPress y version
+    - `02-Jquery.png` - prueba de que la web usa Jquery y version
+    - `2026-01-29_directorio.png` - Información sobre la infraestructura del hospital
   - `contacto/`
-    - `2026-01-29_guia1.png` -
-    - `2026-01-29_guia2.png` -
-    - `2026-01-29_guia3.png` -
+    - `2026-01-29_guia1.png` - Información de contacto
+    - `2026-01-29_guia2.png` - Información de contacto
+    - `2026-01-29_guia3.png` - Información de contacto
   - `dominios-subd-huella-dns/`
-    - `certificadosSSL.png` -
-    - `dns.png` -
-    - `subdominios.png` -
-    - `WHOIS.png` -
+    - `certificadosSSL.png` - Información de certificados SSL
+    - `dns.png` - Información de dns
+    - `subdominios.png` - Información de subdominios
+    - `WHOIS.png` - Información general del dominio
   - `huella-documental/`
-    - `2026-01-29_politica.png` -
-    - `BOJA.png` -
+    - `2026-01-29_politica.png` - Metadatos del pdf
+    - `BOJA.png` - Información interna del hospital
   - `identidades-digitales/`
     - `A-01`
-      - `2026-01-29_doctoralia` -
-      - `2026-01-29_facebook_familia` -
-      - `2026-01-29_facebook` -
-      - `2026-01-29_web` -
+      - `2026-01-29_doctoralia` - Información del personal
+      - `2026-01-29_facebook_familia` - Información del personal
+      - `2026-01-29_facebook` - Información del personal
+      - `2026-01-29_web` - Información del personal
     - `A-02`
-      - `2026-01-29-aseguradora` -
-      - `2026-01-29-instagram` -
-      - `2026-01-29-linkedin` -
-      - `2026-01-29-TOPDOCTORS` -
+      - `2026-01-29-aseguradora` - Información del personal
+      - `2026-01-29-instagram` - Información del personal
+      - `2026-01-29-linkedin` - Información del personal
+      - `2026-01-29-TOPDOCTORS` - Información del personal
     - `A-03`
-      - `2026-01-29-facebook` -
-      - `2026-01-29-instagram` -
-      - `2026-01-29-instagramm` -
-      - `2026-01-29-linkedin` -
-      - `2026-01-29-SAM` -
+      - `2026-01-29-facebook` - Información del personal
+      - `2026-01-29-instagram` - Información del personal
+      - `2026-01-29-instagramm` - Información del personal
+      - `2026-01-29-linkedin` - Información del personal
+      - `2026-01-29-SAM` - Información del personal
