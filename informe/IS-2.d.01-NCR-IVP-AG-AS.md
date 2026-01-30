@@ -148,7 +148,7 @@ Tabla de fuentes:
 | ----------------------- | ----------------------------- | --------------------------------------- | ------------------------------------------- |
 | [Herramienta]           | [Buscador/DNS/Metadatos/etc.] | [Para qué]                              | [archivo en evidencias/ o URL]              |
 | https://www.google.com/ | [Buscador]                    | Buscador usado para todas las busquedas | No aplica                                   |
-| https://viewdns.info/   | [DNS]                         | Ver datos del dns de la web             | evidencias\dominios-subd-huella-dns\dns.png |
+| https://viewdns.info/   | [DNS/Dominio]                 | Ver datos del dominio y dns de la web   | evidencias\dominios-subd-huella-dns\dns.png |
 | https://exif.tools/     | [Metadatos]                   | Extraer Metadatos de un archivo         | evidencias\huella\2026-01-29_politica.png   |
 
 ## 5. Resultados (hallazgos)
