@@ -28,9 +28,10 @@ la concienciación del personal sobre los riesgos de la información pública en
 
 **Hallazgos clave (3-7 bullets).**
 <!-- AYUDA (BORRAR): Elegid solo lo más relevante (lo que facilita ingeniería social/reconocimiento). -->
-- A-01, 02: Información del personal expuesta en la web oficial del Hospital. Se facilita la búsqueda en redes sociales y otras plataformas para su posterior ingeniería social. 
-- A-03: Datos de contacto proporcionados por el Hospital en la web en un pdf. Conoces todos los trabajadores.
-- A-03
+- A-01A: En la sección de Equipo humano, la Clínica nos proporciona una lista con todos los empleados.  
+- A-01, 02: Se facilita la búsqueda en redes sociales y otras plataformas para su posterior ingeniería social. 
+- A-02X: En la sección "Directorio" se facilita la distribución de las diferentes áres del hospital. 
+- A-05: En los subdominios se observan servicios expuestos, que puede convertirse en un vector de ataque.   
 
 **Riesgo global (una frase).**
 <!-- AYUDA (BORRAR): Un diagnóstico breve: nivel + causa principal. -->
@@ -143,10 +144,10 @@ Tabla de fuentes:
 ## 4. Herramientas utilizadas
 <!-- AYUDA (BORRAR): Incluid solo herramientas realmente usadas y una evidencia por cada una (URL o fichero en `evidencias/`). -->
 
-| Herramienta   | Tipo                          | Uso concreto | Salida/evidencia               |
-| ------------- | ----------------------------- | ------------ | ------------------------------ |
-| [Herramienta] | [Buscador/DNS/Metadatos/etc.] | [Para qué]   | [archivo en evidencias/ o URL] |
-| https://exif.tools/ | [Metadatos] | Extraer Metadatos de un archivo   | evidencias\huella\2026-01-29_politica.png |
+| Herramienta         | Tipo                          | Uso concreto                    | Salida/evidencia                          |
+| ------------------- | ----------------------------- | ------------------------------- | ----------------------------------------- |
+| [Herramienta]       | [Buscador/DNS/Metadatos/etc.] | [Para qué]                      | [archivo en evidencias/ o URL]            |
+| https://exif.tools/ | [Metadatos]                   | Extraer Metadatos de un archivo | evidencias\huella\2026-01-29_politica.png |
 
 ## 5. Resultados (hallazgos)
 <!-- AYUDA (BORRAR): Parte principal. Cada hallazgo debe ser verificable y tener evidencia enlazada (URL y/o `evidencias/...`). -->
