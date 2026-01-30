@@ -43,7 +43,7 @@ la concienciación del personal sobre los riesgos de la información pública en
 - **Ocultar detalles de la infraestructura física:** Eliminar planos o directorios detallados de las instalaciones en fuentes públicas para no facilitar el reconocimiento físico.
 - **Reducir la superficie de ataque técnica:** Ocultar versiones de tecnologías (WordPress, jQuery) y revisar subdominios expuestos para asegurar que no revelan entornos vulnerables.
 - **Sanitización de documentos y metadatos:** Establecer un procedimiento de limpieza de metadatos (usuarios, software) en archivos públicos (PDF) y revisar guías de usuario para no exponer contactos internos.
-- **Protección de registros de dominio:** Activar la privacidad en los registros WHOIS para ocultar datos administrativos y técnicos del dominio.
+- **Protección de registros de dominio:** Activar la privacidad en los registros para ocultar datos administrativos y técnicos del dominio.
 
 ## 2. Alcance, supuestos y reglas de compromiso
 <!-- AYUDA (BORRAR): Dejad claro QUÉ se ha hecho y QUÉ no (para demostrar OSINT pasivo). Indicad supuestos y límites. -->
@@ -375,11 +375,11 @@ Formato recomendado por hallazgo:
 ## 6. Resumen de riesgos
 <!-- AYUDA (BORRAR): Tabla para priorizar: qué arreglar primero (P1), después (P2) y al final (P3). -->
 
-| ID   | Hallazgo (resumen)                                                                                     | Riesgo | Prioridad | Acción recomendada                                                                                                  |
-| ---- | ------------------------------------------------------------------------------------------------------ | ------ | --------- | ------------------------------------------------------------------------------------------------------------------- |
-| A-01 | Información personal de trabajadores expuesta, facilitando ataques de ingeniería social               | Alto   | P1        | Limitar la información de los trabajadores y configurar la privacidad de las cuentas de redes sociales.           |
-| A-02 | Información profesional del objetivo encontrada en LinkedIn y páginas web, incluyendo fotos con colegas | Alto   | P1        | Revisar la información pública en perfiles profesionales y limitar la exposición de datos laborales.              |
-| A-03 | Información personal en redes sociales (Instagram y Facebook) incluyendo fotos familiares             | Alto   | P1        | Evitar publicar información sensible de familiares y ajustar la privacidad de las cuentas personales.             |
+| ID   | Hallazgo (resumen)                                                                                      | Riesgo | Prioridad | Acción recomendada                                                                                      |
+| ---- | ------------------------------------------------------------------------------------------------------- | ------ | --------- | ------------------------------------------------------------------------------------------------------- |
+| A-01 | Información personal de trabajadores expuesta, facilitando ataques de ingeniería social                 | Alto   | P1        | Limitar la información de los trabajadores y configurar la privacidad de las cuentas de redes sociales. |
+| A-02 | Información profesional del objetivo encontrada en LinkedIn y páginas web, incluyendo fotos con colegas | Alto   | P1        | Revisar la información pública en perfiles profesionales y limitar la exposición de datos laborales.    |
+| A-03 | Información personal en redes sociales (Instagram y Facebook) incluyendo fotos familiares               | Alto   | P1        | Evitar publicar información sensible de familiares y ajustar la privacidad de las cuentas personales.   |
 
 
 ## 7. Conclusiones
