@@ -201,6 +201,17 @@ Formato recomendado por hallazgo:
 
 - A-04
 
+| Campo | Contenido |
+| --- | --- |
+| ID | A-04 |
+| Categoría | Contacto |
+| Descripción | En la guia para el paciente se pueden ver varios telefonos |
+| Evidencia | [https://www.hospitalespascual.com/guia-para-el-paciente/]+ evidencias\contacto\2026-01-29_guia3.png |
+| Fecha evidencia | [2026-01-29] |
+| Impacto | Saber vectores de ataque para ingenieria social |
+| Riesgo | Medio |
+| Recomendación | Hacer saber a los empleados que estos datos son públicos |
+
 ### 5.3 Dominios, subdominios y huella DNS (pasivo)
 <!-- AYUDA (BORRAR): Dominios oficiales/variantes y subdominios observados en fuentes pasivas/históricas. Evitad enumeración activa. -->
 
