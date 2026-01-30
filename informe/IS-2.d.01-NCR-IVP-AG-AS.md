@@ -295,9 +295,11 @@ Formato recomendado por hallazgo:
 ### 9.1 Registro de fuentes
 <!-- AYUDA (BORRAR): Fuentes base consultadas (URL + fecha). No hace falta duplicar cada evidencia si ya está en hallazgos, pero sí lo principal. -->
 
-| Fuente   | URL  | Fecha acceso | Nota |
-| -------- | ---- | ------------ | ---- |
-| [Fuente] | [..] | [YYYY-MM-DD] | [..] |
+| Fuente                             | URL                                                                    | Fecha acceso | Nota                    |
+| ---------------------------------- | ---------------------------------------------------------------------- | ------------ | ----------------------- |
+| Web Hospitales Pascual, San Rafael | [(https://www.hospitalespascual.com/hospital-san-rafael/)]             | 2026/01/29   | Equipo Humano           |
+| Doctoralia                         | [https://www.doctoralia.es/ignacio-ortiz-acero/cirujano-general/cadiz] | 2026/01/29   | Consultorio Privado IOA |
+| Facebook                           | [https://www.facebook.com/ignacio.ortizacero/]                         | 2026/01/29   | Red Social              |
 
 ### 9.2 Consultas (dorks) empleadas
 <!-- AYUDA (BORRAR): Dejad 5-15 consultas representativas. Deben ser pasivas y reproducibles. -->
