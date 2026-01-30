@@ -454,7 +454,9 @@ Formato recomendado por hallazgo:
 
 - `evidencias/`:
   - `brechas-y-filtraciones/`
-    - 
+    - `01-Wordpress.png` - 
+    - `02-Jquery.png` - 
+    - `2026-01-29_directorio.png` - 
   - `contacto/`
     - 
   - `dominios-subd-huella-dns/`
