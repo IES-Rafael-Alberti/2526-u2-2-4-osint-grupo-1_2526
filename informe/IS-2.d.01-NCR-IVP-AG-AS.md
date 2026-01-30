@@ -27,18 +27,18 @@ la concienciación del personal sobre los riesgos de la información pública en
 **Objetivo.** Determinar qué información pública existía (antes del incidente supuesto) que podría haber facilitado la fase de reconocimiento de un atacante: identidades digitales, contactos, dominios/subdominios, huella documental (metadatos), menciones públicas y exposiciones derivadas.
 
 **Hallazgos clave (3-7 bullets).**
-<!-- AYUDA (BORRAR): Elegid solo lo más relevante (lo que facilita ingeniería social/reconocimiento). -->
+
 - A-01A: En la sección de Equipo humano, la Clínica nos proporciona una lista con todos los empleados.  
 - A-01, 02: Se facilita la búsqueda en redes sociales y otras plataformas para su posterior ingeniería social. 
 - A-02X: En la sección "Directorio" se facilita la distribución de las diferentes áres del hospital. 
 - A-05: En los subdominios se observan servicios expuestos, que puede convertirse en un vector de ataque.   
 
 **Riesgo global (una frase).**
-<!-- AYUDA (BORRAR): Un diagnóstico breve: nivel + causa principal. -->
-- El riesgo global es alto debido a la gran cantidad de información que se puede obtener de la página web de la clínica, lo que facilita la labor de un atacante a la hora de preparar un ataque. 
+
+- El riesgo global es alto, debido a la exposición detallada de la estructura organizativa y datos personales del equipo médico, lo que aumenta críticamente la superficie para ataques de ingeniería social dirigidos. 
 
 **Recomendaciones prioritarias (3-5 bullets).**
-<!-- AYUDA (BORRAR): Acciones concretas, medibles y alineadas con los hallazgos. -->
+
 - **Limitar la exposición de información del personal:** Retirar los listados completos de empleados de la web y concienciar a la plantilla sobre la privacidad en redes sociales para prevenir ataques de ingeniería social.
 - **Ocultar detalles de la infraestructura física:** Eliminar planos o directorios detallados de las instalaciones en fuentes públicas para no facilitar el reconocimiento físico.
 - **Reducir la superficie de ataque técnica:** Ocultar versiones de tecnologías (WordPress, jQuery) y revisar subdominios expuestos para asegurar que no revelan entornos vulnerables.
