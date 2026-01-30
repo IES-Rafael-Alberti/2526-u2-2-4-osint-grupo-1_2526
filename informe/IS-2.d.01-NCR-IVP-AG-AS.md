@@ -224,19 +224,9 @@ Formato recomendado por hallazgo:
 | Descripción     | En la guia de usuario se pueden ver varios datos de contacto                                                                                                                            |
 | Evidencia       | [https://www.hospitalespascual.com/wp-content/uploads/2024/03/guia-del-usuario_San-Rafael_Com.pdf]+ evidencias\contacto\2026-01-29_guia1.png + evidencias\contacto\2026-01-29_guia2.png |
 | Fecha evidencia | [2026-01-29]                                                                                                                                                                            |
-| Impacto         | Saber vectores de ataque para ingenieria social                                                                                                                                         |
+| Impacto         | Saber vectores de ataque para ingenieria social hospital                                                                                                                                |
 | Riesgo          | Medio                                                                                                                                                                                   |
-| Recomendación   | Hacer saber a los empleados que estos datos son públicos                                                                                                                                |
-| Campo           | Contenido                                                                                                                                                                               |
-| --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ID              | A-03                                                                                                                                                                                    |
-| Categoría       | Contacto                                                                                                                                                                                |
-| Descripción     | En la guia de usuario se pueden ver varios datos de contacto                                                                                                                            |
-| Evidencia       | [https://www.hospitalespascual.com/wp-content/uploads/2024/03/guia-del-usuario_San-Rafael_Com.pdf]+ evidencias\contacto\2026-01-29_guia1.png + evidencias\contacto\2026-01-29_guia2.png |
-| Fecha evidencia | [2026-01-29]                                                                                                                                                                            |
-| Impacto         | Saber todos los empleados que trabajan en el hospital                                                                                                                                   |
-| Riesgo          | Alto                                                                                                                                                                                    |
-| Recomendación   | Remover la seccion de Equipo humano                                                                                                                                                     |
+| Recomendación   | Hacer saber a los empleados que estos datos son públicos humano                                                                                                                         |
 
 - A-04
 
