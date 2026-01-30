@@ -235,11 +235,11 @@ Formato recomendado por hallazgo:
 ## 6. Resumen de riesgos
 <!-- AYUDA (BORRAR): Tabla para priorizar: qué arreglar primero (P1), después (P2) y al final (P3). -->
 
-| ID   | Hallazgo (resumen) | Riesgo | Prioridad | Acción recomendada |
-| ---- | ------------------ | ------ | --------- | ------------------ |
-| A-01 | [..]               | Alto   | P1        | [..]               |
-| A-02 | [..]               | Medio  | P2        | [..]               |
-| A-03 | [..]               | Bajo   | P3        | [..]               |
+| ID   | Hallazgo (resumen)                                                                      | Riesgo | Prioridad | Acción recomendada                                                                                      |
+| ---- | --------------------------------------------------------------------------------------- | ------ | --------- | ------------------------------------------------------------------------------------------------------- |
+| A-01 | Información personal de trabajadores expuesta, facilitando ataques de ingeniería social | Alto   | P1        | Limitar la información de los trabajadores y configurar la privacidad de las cuentas de redes sociales. |
+| A-02 | [..]                                                                                    | Medio  | P2        | [..]                                                                                                    |
+| A-03 | [..]                                                                                    | Bajo   | P3        | [..]                                                                                                    |
 
 ## 7. Conclusiones
 <!-- AYUDA (BORRAR): 3-6 bullets: qué superficie pública existía y qué vector pudo facilitar. Sin repetir texto, aportad síntesis. -->
