@@ -198,6 +198,19 @@ Formato recomendado por hallazgo:
 | Impacto         | La agregación de información procedente de múltiples fuentes permite a un atacante construir un perfil exhaustivo del médico, facilitando ataques de ingeniería social altamente dirigidos, suplantación de identidad profesional y campañas de phishing personalizadas.                                                                                                                                                                                                                                                                                                                                                   |
 | Riesgo          | Medio                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | Recomendación   | Centralizar y controlar la información profesional publicada, reducir la exposición innecesaria en redes sociales, revisar la visibilidad de perfiles profesionales y reforzar la formación del personal sanitario frente a ataques de ingeniería social.                                                                                                                                                                                                                                                                                                                                                                  |
+- A-03
+
+
+| Campo           | Contenido                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ID              | A-03                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Categoría       | Identidad                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Descripción     | A partir de fuentes abiertas se recopiló información sobre Guido Weisman, médico especialista en Traumatología que ejerce en el Hospital San Rafael de Cádiz. Durante la investigación OSINT se localizaron su perfil de LinkedIn, diversas páginas web en las que se hace referencia a su actividad profesional, así como fotografías públicas junto a compañeros de trabajo. Adicionalmente, se identificaron perfiles en redes sociales como Instagram y Facebook, donde se encontraron imágenes de carácter personal que permiten inferir aspectos de su entorno privado. |
+| Evidencia       | [Foto Universidad](../evidencias/identidades-digitales/A-03/2026-01-29-SAM.PNG) · [LinkedIn](../evidencias/identidades-digitales/A-03/2026-01-29-linkedin.PNG) · [Instagram](../evidencias/identidades-digitales/A-03/2026-01-29-instagramm.PNG) · [Facebook](../evidencias/identidades-digitales/A-03/2026-01-29-facebook.PNG)                                                                                                                                                                                                                                               |
+| Fecha evidencia | 2026-01-29                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Impacto         | La correlación de información profesional y personal procedente de múltiples plataformas permite a un atacante construir un perfil exhaustivo del individuo, facilitando ataques de ingeniería social dirigidos, suplantación de identidad profesional y posibles situaciones de acoso o extorsión.                                                                                                                                                                                                                                                                           |
+| Riesgo          | Alto                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Recomendación   | Restringir la visibilidad de perfiles personales en redes sociales, separar la identidad profesional de la privada, evitar la publicación de contenido sensible o familiar y reforzar la concienciación sobre los riesgos asociados a la exposición digital.                                                                                                                                                                                                                                                                                                                  |
 
 
 ### 5.2 Datos de contacto (emails, teléfonos, estructuras)
@@ -212,9 +225,9 @@ Formato recomendado por hallazgo:
 | Descripción     | En la guia de usuario se pueden ver varios datos de contacto                                                                                                                            |
 | Evidencia       | [https://www.hospitalespascual.com/wp-content/uploads/2024/03/guia-del-usuario_San-Rafael_Com.pdf]+ evidencias\contacto\2026-01-29_guia1.png + evidencias\contacto\2026-01-29_guia2.png |
 | Fecha evidencia | [2026-01-29]                                                                                                                                                                            |
-| Impacto         | Saber todos los empleados que trabajan en el hospital                                                                                                                                   |
-| Riesgo          | Alto                                                                                                                                                                                    |
-| Recomendación   | Remover la seccion de Equipo humano                                                                                                                                                     |
+| Impacto         | Saber vectores de ataque para ingenieria social hospital                                                                                                                                |
+| Riesgo          | Medio                                                                                                                                                                                   |
+| Recomendación   | Hacer saber a los empleados que estos datos son públicos humano                                                                                                                         |
 
 - A-04
 
@@ -232,9 +245,11 @@ Formato recomendado por hallazgo:
 ### 5.3 Dominios, subdominios y huella DNS (pasivo)
 <!-- AYUDA (BORRAR): Dominios oficiales/variantes y subdominios observados en fuentes pasivas/históricas. Evitad enumeración activa. -->
 
+- A-05
+
 | Campo           | Contenido                                                                                                                      |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| ID              | A-01                                                                                                                           |
+| ID              | A-05                                                                                                                           |
 | Categoría       | Dominio-DNS                                                                                                                    |
 | Descripción     | Subdominios observados en fuentes pasivas/históricas.                                                                          |
 | Evidencia       | https://viewdns.info/ + [Subdominios](/evidencias/dominios-subd-huella-dns/subdominios.png)                                    |
@@ -242,6 +257,32 @@ Formato recomendado por hallazgo:
 | Impacto         | Permite descubrir servicios expuestos, detectar entornos olvidados, identificar tecnologías, localizar APIs entre otras cosas. |
 | Riesgo          | Medio                                                                                                                          |
 | Recomendación   | Reducir lo que "se puede enumerar"; cerrar subdominios innecesarios, aislar entornos, evitar registros DNS de más entre otras. |
+
+- A-06
+
+| Campo           | Contenido                                                                                                    |
+| --------------- | ------------------------------------------------------------------------------------------------------------ |
+| ID              | A-06                                                                                                         |
+| Categoría       | Dominio-DNS                                                                                                  |
+| Descripción     | Whois permite obtener detalles clave tanto del dominio como de la ip pública asociada.                       |
+| Evidencia       | https://viewdns.info/ + [Whois](/evidencias/dominios-subd-huella-dns/WHOIS.png)                              |
+| Fecha evidencia | [29-01-2026]                                                                                                 |
+| Impacto         | Permite descubrir información sobre el propietario del dominio, fecha de creación, fecha de expiración, etc. |
+| Riesgo          | Bajo                                                                                                         |
+| Recomendación   | No exponer información sensible en Whois activando la privacidad del registrador.                            |
+
+- A-07
+  
+| Campo           | Contenido                                                                                                              |
+| --------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| ID              | A-07                                                                                                                   |
+| Categoría       | Dominio-DNS                                                                                                            |
+| Descripción     | Obtener la huella DNS de un dominio.                                                                                   |
+| Evidencia       | https://viewdns.info/ + [DNS](/evidencias/dominios-subd-huella-dns/dns.png)                                            |
+| Fecha evidencia | [29-01-2026]                                                                                                           |
+| Impacto         | Permite a un atacante mapear el dominio y que servicios están expuestos.                                               |
+| Riesgo          | Medio                                                                                                                  |
+| Recomendación   | Elimina subdominios innecesarios y aísla los entornos dev/staging (VPN o IP allowlist) para reducir la attack surface. |
 
 ### 5.4 Huella documental y metadatos (documentos públicos)
 <!-- AYUDA (BORRAR): Documentos públicos y metadatos relevantes (autor, software, rutas, fechas). Adjuntad evidencia. -->
@@ -302,10 +343,20 @@ Formato recomendado por hallazgo:
 | Riesgo          | Alto                                                                                                                                                         |
 | Recomendación   | Remover la seccion de Equipo humano                                                                                                                          |
 
+- A-0X2
+
+| Campo | Contenido |
+| --- | --- |
+| ID | A-0X2 |
+| Categoría | Brechas |
+| Descripción | Busqueda en Google de la web de la "Clínica de San Rafael de Cádiz", y vamos a la sección de "Directorio” se puede ver información de la distribución de las instalaciones. |
+| Evidencia | [https://www.hospitalespascual.com/hospital-san-rafael/] + evidencias\brechas-y-filtraciones\2026-01-29_directorio.png |
+| Fecha evidencia | [2026-01-29] |
+| Impacto | Saber la estructura del edificio |
+| Riesgo | Medio |
+| Recomendación | Remover la seccion de Directorio |
+
 - A-09
-
-
-
 
 ## 6. Resumen de riesgos
 <!-- AYUDA (BORRAR): Tabla para priorizar: qué arreglar primero (P1), después (P2) y al final (P3). -->
