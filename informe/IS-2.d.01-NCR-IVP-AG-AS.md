@@ -187,6 +187,18 @@ Formato recomendado por hallazgo:
 <!-- AYUDA (BORRAR): Patrones de correo (si se infieren), teléfonos publicados, extensiones, formularios de contacto y riesgos asociados. -->
 
 - A-03
+
+| Campo | Contenido |
+| --- | --- |
+| ID | A-03 |
+| Categoría | Contacto |
+| Descripción | En la guia de usuario se pueden ver varios datos de contacto |
+| Evidencia | [https://www.hospitalespascual.com/wp-content/uploads/2024/03/guia-del-usuario_San-Rafael_Com.pdf]+ evidencias\contacto\2026-01-29_guia1.png + evidencias\contacto\2026-01-29_guia2.png |
+| Fecha evidencia | [2026-01-29] |
+| Impacto | Saber todos los empleados que trabajan en el hospital |
+| Riesgo | Alto |
+| Recomendación | Remover la seccion de Equipo humano |
+
 - A-04
 
 ### 5.3 Dominios, subdominios y huella DNS (pasivo)
@@ -290,9 +302,11 @@ Formato recomendado por hallazgo:
 ### 9.1 Registro de fuentes
 <!-- AYUDA (BORRAR): Fuentes base consultadas (URL + fecha). No hace falta duplicar cada evidencia si ya está en hallazgos, pero sí lo principal. -->
 
-| Fuente   | URL  | Fecha acceso | Nota |
-| -------- | ---- | ------------ | ---- |
-| [Fuente] | [..] | [YYYY-MM-DD] | [..] |
+| Fuente                             | URL                                                                    | Fecha acceso | Nota                    |
+| ---------------------------------- | ---------------------------------------------------------------------- | ------------ | ----------------------- |
+| Web Hospitales Pascual, San Rafael | [(https://www.hospitalespascual.com/hospital-san-rafael/)]             | 2026/01/29   | Equipo Humano           |
+| Doctoralia                         | [https://www.doctoralia.es/ignacio-ortiz-acero/cirujano-general/cadiz] | 2026/01/29   | Consultorio Privado IOA |
+| Facebook                           | [https://www.facebook.com/ignacio.ortizacero/]                         | 2026/01/29   | Red Social              |
 
 ### 9.2 Consultas (dorks) empleadas
 <!-- AYUDA (BORRAR): Dejad 5-15 consultas representativas. Deben ser pasivas y reproducibles. -->
