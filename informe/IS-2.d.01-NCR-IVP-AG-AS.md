@@ -230,6 +230,18 @@ Formato recomendado por hallazgo:
 <!-- AYUDA (BORRAR): Documentos públicos y metadatos relevantes (autor, software, rutas, fechas). Adjuntad evidencia. -->
 
 - A-07
+
+| Campo | Contenido |
+| --- | --- |
+| ID | A-07 |
+| Categoría | Documentos-Metadatos |
+| Descripción | Usando la busqueda site:https://www.hospitalespascual.com/ filetype:pdf, se puede obtener un documento pdf con varios metadatos como Autor y herramienta usada |
+| Evidencia | [https://www.hospitalespascual.com/wp-content/uploads/2024/09/POLITICA-DE-MEDIOAMBIENTE44.pdf] + evidencias\huella\2026-01-29_politica.png |
+| Fecha evidencia | [2026-01-29] |
+| Impacto | Saber herramientas usadas por la empresa |
+| Riesgo | Bajo |
+| Recomendación | Asegurarse de que no se guarden metadatos de información sensible |
+
 - A-08
 
 ### 5.5 Brechas y filtraciones (consulta pasiva)
