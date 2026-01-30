@@ -43,7 +43,7 @@ la concienciación del personal sobre los riesgos de la información pública en
 - **Ocultar detalles de la infraestructura física:** Eliminar planos o directorios detallados de las instalaciones en fuentes públicas para no facilitar el reconocimiento físico.
 - **Reducir la superficie de ataque técnica:** Ocultar versiones de tecnologías (WordPress, jQuery) y revisar subdominios expuestos para asegurar que no revelan entornos vulnerables.
 - **Sanitización de documentos y metadatos:** Establecer un procedimiento de limpieza de metadatos (usuarios, software) en archivos públicos (PDF) y revisar guías de usuario para no exponer contactos internos.
-- **Protección de registros de dominio:** Activar la privacidad en los registros WHOIS para ocultar datos administrativos y técnicos del dominio.
+- **Protección de registros de dominio:** Activar la privacidad en los registros para ocultar datos administrativos y técnicos del dominio.
 
 ## 2. Alcance, supuestos y reglas de compromiso
 <!-- AYUDA (BORRAR): Dejad claro QUÉ se ha hecho y QUÉ no (para demostrar OSINT pasivo). Indicad supuestos y límites. -->
@@ -390,11 +390,10 @@ Formato recomendado por hallazgo:
 
 
 ## 7. Conclusiones
-<!-- AYUDA (BORRAR): 3-6 bullets: qué superficie pública existía y qué vector pudo facilitar. Sin repetir texto, aportad síntesis. -->
 
-- [Conclusión 1: qué explica la exposición encontrada y por qué importa]
-- [Conclusión 2]
-- [Conclusión 3]
+- **Exposición crítica de identidades y estructura:** La publicación del organigrama completo y listados de empleados, combinada con la huella digital personal en redes sociales, facilita enormemente la creación de perfiles para ataques de spear phishing altamente creíbles.
+- **Transparencia física excesiva:** La disponibilidad pública de directorios y planos del edificio reduce la barrera de entrada para operaciones de seguridad física o reconocimiento presencial, eliminando la necesidad de reconocimiento activo arriesgado.
+- **Huella técnica y documental descuidada:** La presencia de subdominios olvidados, versiones de software expuestas y metadatos en documentos PDF revela una falta de higiene digital que podría servir como punto de entrada inicial para comprometer la infraestructura tecnológica.
 
 ## 8. Recomendaciones
 <!-- AYUDA (BORRAR): Convertid hallazgos en acciones concretas. Si podéis, asignad responsable sugerido (IT/Seguridad/RRHH/Comunicacion). -->
@@ -429,9 +428,19 @@ Formato recomendado por hallazgo:
 
 (Registrar aquí las consultas utilizadas. Evitar incluir acciones activas o instrucciones de acceso.)
 
-- `site:[dominio] filetype:pdf [palabra clave]`
-- `site:[dominio] "@[dominio]"`
-- `"Clínica San Rafael" "Cádiz" [palabra clave]`
+- site:hospitalespascual.com filetype:pdf "San Rafael"
+- site:hospitalespascual.com "equipo humano"
+- site:linkedin.com "Ignacio Ortiz Acero"
+- site:linkedin.com "Guido Weisman"
+- site:linkedin.com "José Manuel Pascual Espinosa"
+- site:facebook.com "Ignacio Ortiz Acero"
+- site:facebook.com "Guido Weisman"
+- site:facebook.com "Hospitales Pascual"
+- site:instagram.com "gugaweis"
+- site:topdoctors.es "José Manuel Pascual Espinosa"
+- site:segurcaixaadeslas.es "traumatologos Cádiz"
+- "Clínica San Rafael" "Cádiz" "información personal"
+- "Clínica San Rafael" "Cádiz" "equipo médico"
 
 ### 9.3 Evidencias (índice)
 <!-- AYUDA (BORRAR): Índice con enlaces relativos a ficheros dentro de `evidencias/`. Debe permitir abrir cada evidencia sin buscar. -->
@@ -439,4 +448,13 @@ Formato recomendado por hallazgo:
 <!-- AYUDA (BORRAR): Ejemplo de enlace: `[2026-01-27 - Google - PDF organigrama](../evidencias/2026-01-27_google_organigrama.pdf)` -->
 
 - `evidencias/`:
-  - `YYYY-MM-DD_fuente_tema.ext` - [descripción]
+  - `brechas-y-filtraciones/`
+    - 
+  - `contacto/`
+    - 
+  - `dominios-subd-huella-dns/`
+    - 
+  - `huella-documental/`
+    - 
+  - `identidades-digitales/`
+    - 
