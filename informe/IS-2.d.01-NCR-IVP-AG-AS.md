@@ -430,9 +430,19 @@ Formato recomendado por hallazgo:
 
 (Registrar aquí las consultas utilizadas. Evitar incluir acciones activas o instrucciones de acceso.)
 
-- `site:[dominio] filetype:pdf [palabra clave]`
-- `site:[dominio] "@[dominio]"`
-- `"Clínica San Rafael" "Cádiz" [palabra clave]`
+- site:hospitalespascual.com filetype:pdf "San Rafael"
+- site:hospitalespascual.com "equipo humano"
+- site:linkedin.com "Ignacio Ortiz Acero"
+- site:linkedin.com "Guido Weisman"
+- site:linkedin.com "José Manuel Pascual Espinosa"
+- site:facebook.com "Ignacio Ortiz Acero"
+- site:facebook.com "Guido Weisman"
+- site:facebook.com "Hospitales Pascual"
+- site:instagram.com "gugaweis"
+- site:topdoctors.es "José Manuel Pascual Espinosa"
+- site:segurcaixaadeslas.es "traumatologos Cádiz"
+- "Clínica San Rafael" "Cádiz" "información personal"
+- "Clínica San Rafael" "Cádiz" "equipo médico"
 
 ### 9.3 Evidencias (índice)
 <!-- AYUDA (BORRAR): Índice con enlaces relativos a ficheros dentro de `evidencias/`. Debe permitir abrir cada evidencia sin buscar. -->
