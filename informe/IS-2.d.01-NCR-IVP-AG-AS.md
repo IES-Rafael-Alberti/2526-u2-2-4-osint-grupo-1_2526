@@ -146,6 +146,7 @@ Tabla de fuentes:
 | Herramienta   | Tipo                          | Uso concreto | Salida/evidencia               |
 | ------------- | ----------------------------- | ------------ | ------------------------------ |
 | [Herramienta] | [Buscador/DNS/Metadatos/etc.] | [Para qué]   | [archivo en evidencias/ o URL] |
+| https://exif.tools/ | [Metadatos] | Extraer Metadatos de un archivo   | evidencias\huella\2026-01-29_politica.png |
 
 ## 5. Resultados (hallazgos)
 <!-- AYUDA (BORRAR): Parte principal. Cada hallazgo debe ser verificable y tener evidencia enlazada (URL y/o `evidencias/...`). -->
