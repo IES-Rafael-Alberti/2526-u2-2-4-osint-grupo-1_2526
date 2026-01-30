@@ -256,7 +256,7 @@ Formato recomendado por hallazgo:
 | ID              | A-05                                                                                                                           |
 | Categoría       | Dominio-DNS                                                                                                                    |
 | Descripción     | Subdominios observados en fuentes pasivas/históricas.                                                                          |
-| Evidencia       | https://viewdns.info/ + [Subdominios](/evidencias/dominios-subd-huella-dns/subdominios.png)                                    |
+| Evidencia       | https://viewdns.info/subdomains + [Subdominios](/evidencias/dominios-subd-huella-dns/subdominios.png)                          |
 | Fecha evidencia | [29-01-2026]                                                                                                                   |
 | Impacto         | Permite descubrir servicios expuestos, detectar entornos olvidados, identificar tecnologías, localizar APIs entre otras cosas. |
 | Riesgo          | Medio                                                                                                                          |
@@ -269,7 +269,7 @@ Formato recomendado por hallazgo:
 | ID              | A-06                                                                                                         |
 | Categoría       | Dominio-DNS                                                                                                  |
 | Descripción     | Whois permite obtener detalles clave tanto del dominio como de la ip pública asociada.                       |
-| Evidencia       | https://viewdns.info/ + [Whois](/evidencias/dominios-subd-huella-dns/WHOIS.png)                              |
+| Evidencia       | https://viewdns.info/whois/ + [Whois](/evidencias/dominios-subd-huella-dns/WHOIS.png)                        |
 | Fecha evidencia | [29-01-2026]                                                                                                 |
 | Impacto         | Permite descubrir información sobre el propietario del dominio, fecha de creación, fecha de expiración, etc. |
 | Riesgo          | Bajo                                                                                                         |
@@ -282,7 +282,7 @@ Formato recomendado por hallazgo:
 | ID              | A-07                                                                                                                   |
 | Categoría       | Dominio-DNS                                                                                                            |
 | Descripción     | Obtener la huella DNS de un dominio.                                                                                   |
-| Evidencia       | https://viewdns.info/ + [DNS](/evidencias/dominios-subd-huella-dns/dns.png)                                            |
+| Evidencia       | https://viewdns.info/dnsreport/ + [DNS](/evidencias/dominios-subd-huella-dns/dns.png)                                  |
 | Fecha evidencia | [29-01-2026]                                                                                                           |
 | Impacto         | Permite a un atacante mapear el dominio y que servicios están expuestos.                                               |
 | Riesgo          | Medio                                                                                                                  |
@@ -375,11 +375,12 @@ Formato recomendado por hallazgo:
 ## 6. Resumen de riesgos
 <!-- AYUDA (BORRAR): Tabla para priorizar: qué arreglar primero (P1), después (P2) y al final (P3). -->
 
-| ID   | Hallazgo (resumen)                                                                      | Riesgo | Prioridad | Acción recomendada                                                                                      |
-| ---- | --------------------------------------------------------------------------------------- | ------ | --------- | ------------------------------------------------------------------------------------------------------- |
-| A-01 | Información personal de trabajadores expuesta, facilitando ataques de ingeniería social | Alto   | P1        | Limitar la información de los trabajadores y configurar la privacidad de las cuentas de redes sociales. |
-| A-02 | [..]                                                                                    | Medio  | P2        | [..]                                                                                                    |
-| A-03 | [..]                                                                                    | Bajo   | P3        | [..]                                                                                                    |
+| ID   | Hallazgo (resumen)                                                                                     | Riesgo | Prioridad | Acción recomendada                                                                                                  |
+| ---- | ------------------------------------------------------------------------------------------------------ | ------ | --------- | ------------------------------------------------------------------------------------------------------------------- |
+| A-01 | Información personal de trabajadores expuesta, facilitando ataques de ingeniería social               | Alto   | P1        | Limitar la información de los trabajadores y configurar la privacidad de las cuentas de redes sociales.           |
+| A-02 | Información profesional del objetivo encontrada en LinkedIn y páginas web, incluyendo fotos con colegas | Alto   | P1        | Revisar la información pública en perfiles profesionales y limitar la exposición de datos laborales.              |
+| A-03 | Información personal en redes sociales (Instagram y Facebook) incluyendo fotos familiares             | Alto   | P1        | Evitar publicar información sensible de familiares y ajustar la privacidad de las cuentas personales.             |
+
 
 ## 7. Conclusiones
 <!-- AYUDA (BORRAR): 3-6 bullets: qué superficie pública existía y qué vector pudo facilitar. Sin repetir texto, aportad síntesis. -->
