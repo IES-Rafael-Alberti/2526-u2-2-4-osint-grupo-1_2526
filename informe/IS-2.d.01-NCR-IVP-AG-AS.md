@@ -35,13 +35,15 @@ la concienciación del personal sobre los riesgos de la información pública en
 
 **Riesgo global (una frase).**
 <!-- AYUDA (BORRAR): Un diagnóstico breve: nivel + causa principal. -->
-- [Bajo/Medio/Alto] por [motivo principal].
+- El riesgo global es alto debido a la gran cantidad de información que se puede obtener de la página web de la clínica, lo que facilita la labor de un atacante a la hora de preparar un ataque. 
 
 **Recomendaciones prioritarias (3-5 bullets).**
 <!-- AYUDA (BORRAR): Acciones concretas, medibles y alineadas con los hallazgos. -->
-- [Acción 1]
-- [Acción 2]
-- [Acción 3]
+- **Limitar la exposición de información del personal:** Retirar los listados completos de empleados de la web y concienciar a la plantilla sobre la privacidad en redes sociales para prevenir ataques de ingeniería social.
+- **Ocultar detalles de la infraestructura física:** Eliminar planos o directorios detallados de las instalaciones en fuentes públicas para no facilitar el reconocimiento físico.
+- **Reducir la superficie de ataque técnica:** Ocultar versiones de tecnologías (WordPress, jQuery) y revisar subdominios expuestos para asegurar que no revelan entornos vulnerables.
+- **Sanitización de documentos y metadatos:** Establecer un procedimiento de limpieza de metadatos (usuarios, software) en archivos públicos (PDF) y revisar guías de usuario para no exponer contactos internos.
+- **Protección de registros de dominio:** Activar la privacidad en los registros WHOIS para ocultar datos administrativos y técnicos del dominio.
 
 ## 2. Alcance, supuestos y reglas de compromiso
 <!-- AYUDA (BORRAR): Dejad claro QUÉ se ha hecho y QUÉ no (para demostrar OSINT pasivo). Indicad supuestos y límites. -->
@@ -360,7 +362,7 @@ Formato recomendado por hallazgo:
 
 | Campo           | Contenido                                                                                                                                                                   |
 | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ID              | A-13                                                                                                                                                                        |
+| ID              | A-0X2                                                                                                                                                                       |
 | Categoría       | Brechas                                                                                                                                                                     |
 | Descripción     | Busqueda en Google de la web de la "Clínica de San Rafael de Cádiz", y vamos a la sección de "Directorio” se puede ver información de la distribución de las instalaciones. |
 | Evidencia       | [https://www.hospitalespascual.com/hospital-san-rafael/] + evidencias\brechas-y-filtraciones\2026-01-29_directorio.png                                                      |
