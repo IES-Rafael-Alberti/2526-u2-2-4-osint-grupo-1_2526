@@ -453,4 +453,13 @@ Formato recomendado por hallazgo:
 <!-- AYUDA (BORRAR): Ejemplo de enlace: `[2026-01-27 - Google - PDF organigrama](../evidencias/2026-01-27_google_organigrama.pdf)` -->
 
 - `evidencias/`:
-  - `YYYY-MM-DD_fuente_tema.ext` - [descripción]
+  - `brechas-y-filtraciones/`
+    - 
+  - `contacto/`
+    - 
+  - `dominios-subd-huella-dns/`
+    - 
+  - `huella-documental/`
+    - 
+  - `identidades-digitales/`
+    - 
