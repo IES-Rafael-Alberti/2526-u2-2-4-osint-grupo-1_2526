@@ -229,6 +229,8 @@ Formato recomendado por hallazgo:
 | Riesgo          | Medio                                                                                                                                                     |
 | Recomendación   | Evitar la exposición de tecnologías en la medida de lo posible.                                                                                           |
 
+- A-01A
+
 | Campo | Contenido |
 | --- | --- |
 | ID | A-01A |
