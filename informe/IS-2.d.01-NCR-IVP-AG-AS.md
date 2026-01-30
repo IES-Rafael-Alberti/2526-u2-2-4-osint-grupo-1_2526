@@ -28,9 +28,9 @@ la concienciación del personal sobre los riesgos de la información pública en
 
 **Hallazgos clave (3-7 bullets).**
 <!-- AYUDA (BORRAR): Elegid solo lo más relevante (lo que facilita ingeniería social/reconocimiento). -->
-- [Hallazgo 1 + por qué importa]
-- [Hallazgo 2 + por qué importa]
-- [Hallazgo 3 + por qué importa]
+- A-01, 02: Información del personal expuesta en la web oficial del Hospital. Se facilita la búsqueda en redes sociales y otras plataformas para su posterior ingeniería social. 
+- A-03: Datos de contacto proporcionados por el Hospital en la web en un pdf. Conoces todos los trabajadores.
+- A-03
 
 **Riesgo global (una frase).**
 <!-- AYUDA (BORRAR): Un diagnóstico breve: nivel + causa principal. -->
@@ -188,16 +188,16 @@ Formato recomendado por hallazgo:
 
 - A-03
 
-| Campo | Contenido |
-| --- | --- |
-| ID | A-03 |
-| Categoría | Contacto |
-| Descripción | En la guia de usuario se pueden ver varios datos de contacto |
-| Evidencia | [https://www.hospitalespascual.com/wp-content/uploads/2024/03/guia-del-usuario_San-Rafael_Com.pdf]+ evidencias\contacto\2026-01-29_guia1.png + evidencias\contacto\2026-01-29_guia2.png |
-| Fecha evidencia | [2026-01-29] |
-| Impacto | Saber todos los empleados que trabajan en el hospital |
-| Riesgo | Alto |
-| Recomendación | Remover la seccion de Equipo humano |
+| Campo           | Contenido                                                                                                                                                                               |
+| --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ID              | A-03                                                                                                                                                                                    |
+| Categoría       | Contacto                                                                                                                                                                                |
+| Descripción     | En la guia de usuario se pueden ver varios datos de contacto                                                                                                                            |
+| Evidencia       | [https://www.hospitalespascual.com/wp-content/uploads/2024/03/guia-del-usuario_San-Rafael_Com.pdf]+ evidencias\contacto\2026-01-29_guia1.png + evidencias\contacto\2026-01-29_guia2.png |
+| Fecha evidencia | [2026-01-29]                                                                                                                                                                            |
+| Impacto         | Saber todos los empleados que trabajan en el hospital                                                                                                                                   |
+| Riesgo          | Alto                                                                                                                                                                                    |
+| Recomendación   | Remover la seccion de Equipo humano                                                                                                                                                     |
 
 - A-04
 
