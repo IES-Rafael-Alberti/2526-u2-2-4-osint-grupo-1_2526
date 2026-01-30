@@ -1,5 +1,4 @@
 # IS 2.d.02 (a) - Auditoría de Superficie de Exposición Post-Incidente (OSINT pasivo)
-<!-- AYUDA (BORRAR): Plantilla del informe. Rellenad los campos entre corchetes y eliminad todos los bloques "AYUDA (BORRAR)" antes de entregar. -->
 
 - Entidad objetivo: Clínica de San Rafael de Cádiz
 - Equipo/Grupo: Grupo 1
@@ -46,18 +45,14 @@ la concienciación del personal sobre los riesgos de la información pública en
 - **Protección de registros de dominio:** Activar la privacidad en los registros para ocultar datos administrativos y técnicos del dominio.
 
 ## 2. Alcance, supuestos y reglas de compromiso
-<!-- AYUDA (BORRAR): Dejad claro QUÉ se ha hecho y QUÉ no (para demostrar OSINT pasivo). Indicad supuestos y límites. -->
 
 **Alcance.** Solo OSINT pasivo sobre la entidad Hospital San Rafael de Cádiz (y su huella pública asociada). No se incluye investigación individual (apartado b).
 
 **Fuentes permitidas (ejemplos).** Motores de búsqueda, hemeroteca, registros públicos, perfiles públicos en RRSS, repositorios públicos, documentos públicos, Wayback/archivos, bases de datos de brechas (consulta pasiva).
-<!-- AYUDA (BORRAR): Listad las fuentes reales que usasteis (5-10), no un listado infinito. -->
 
 **Regla crítica.** Prohibida cualquier acción activa: escaneos, enumeración directa de servicios, pruebas de login, interacción con formularios, generación de tráfico hacia los sistemas objetivo.
-<!-- AYUDA (BORRAR): Si una herramienta pudiera considerarse “activa”, explicad cómo la usasteis de forma pasiva (solo consultas a datos ya recopilados por terceros). -->
 
 **Minimización y privacidad.**
-<!-- AYUDA (BORRAR): Explicad cómo reducís datos personales (enmascarado parcial, iniciales, no incluir PII innecesaria). -->
 - Evitar incluir datos personales innecesarios.
 - Si aparecen datos personales de terceros (p. ej., correos de empleados), aplicar reducción: mostrar solo lo imprescindible o enmascarar parcialmente cuando no aporte valor al riesgo.
 
@@ -106,10 +101,8 @@ Tabla de fuentes:
   - Guardar capturas o PDFs en `evidencias/` con nombres: `YYYY-MM-DD_fuente_tema.ext`
   - Registrar URL (y, cuando sea útil, captura) y fecha de acceso en cada hallazgo.
   - Toda evidencia mencionada en el informe debe estar enlazada (URL y/o ruta relativa a `evidencias/`).
-<!-- AYUDA (BORRAR): Si una URL cambia o desaparece, la captura/PDF en `evidencias/` es la prueba de trazabilidad. -->
 
 ### 3.4 Procesamiento y organización
-<!-- AYUDA (BORRAR): Cómo ordenasteis datos: deduplicación, clasificación por categorías y relevancia, y control de calidad. -->
 
 - Normalización:
   - Deduplicación de correos/teléfonos/dominios.
@@ -120,31 +113,25 @@ Tabla de fuentes:
   - Fecha y vigencia (actual vs. histórico).
   - Corroboración cruzada (>= 2 fuentes cuando sea posible).
   - Continuidad de los patrones previamente vistos (nombres de correos, prefijo de telefono, etc ...)
-<!-- AYUDA (BORRAR): Indicad qué hallazgos NO pudisteis corroborar y por qué. -->
 
 ### 3.5 Análisis e interpretación
-<!-- AYUDA (BORRAR): Transformad datos en “inteligencia”: vectores habilitados, probabilidad/impacto, y mitigación recomendada. -->
 
 - Correlaciones (ejemplos):
   - Patrones de email + nombres de empleados + roles (posible spear phishing).
   - Documentos públicos -> metadatos -> nombres de usuario/software.
   - Dominios/subdominios históricos -> superficies olvidadas.
-<!-- AYUDA (BORRAR): Añadid 2-5 correlaciones reales. Mejor pocas y buenas. -->
 
 - Valoración de riesgo: usar una escala simple.
   - Alto: facilita acceso/engaño de alta probabilidad o alto impacto.
   - Medio: aporta información útil, pero requiere pasos adicionales.
   - Bajo: información marginal o muy genérica.
-<!-- AYUDA (BORRAR): Justificad el riesgo con una frase (“Alto porque permite suplantación del canal X”, etc.). -->
 
 ### 3.6 Difusión
-<!-- AYUDA (BORRAR): Explicad a quién va dirigido el informe y cómo se usará (priorizar mitigaciones y concienciación). -->
 
 - Este informe resume hallazgos, evidencia y recomendaciones accionables.
 - Presentación clara para audiencias técnicas y no técnicas.
 
 ## 4. Herramientas utilizadas
-<!-- AYUDA (BORRAR): Incluid solo herramientas realmente usadas y una evidencia por cada una (URL o fichero en `evidencias/`). -->
 
 | Herramienta             | Tipo                          | Uso concreto                            | Salida/evidencia                            |
 | ----------------------- | ----------------------------- | --------------------------------------- | ------------------------------------------- |
@@ -155,20 +142,7 @@ Tabla de fuentes:
 
 ## 5. Resultados (hallazgos)
 
-
-| Campo           | Contenido                                                                  |
-| --------------- | -------------------------------------------------------------------------- |
-| ID              | A-01                                                                       |
-| Categoría       | Contacto / Identidad / Dominio-DNS / Documentos-Metadatos / RRSS / Brechas |
-| Descripción     | [Qué se encontró, claro y verificable]                                     |
-| Evidencia       | [URL] + `evidencias/...`                                                   |
-| Fecha evidencia | [YYYY-MM-DD]                                                               |
-| Impacto         | [Qué permite a un atacante]                                                |
-| Riesgo          | Alto / Medio / Bajo                                                        |
-| Recomendación   | [Mitigación concreta]                                                      |
-
 ### 5.1 Identidades digitales (nicks, perfiles, cuentas)
-<!-- AYUDA (BORRAR): Perfiles corporativos, posibles empleados/roles (solo info pública), y “pivots” para ingeniería social. -->
 
 - A-01
 
@@ -211,7 +185,6 @@ Tabla de fuentes:
 
 
 ### 5.2 Datos de contacto (emails, teléfonos, estructuras)
-<!-- AYUDA (BORRAR): Patrones de correo (si se infieren), teléfonos publicados, extensiones, formularios de contacto y riesgos asociados. -->
 
 - A-04
 
@@ -240,7 +213,6 @@ Tabla de fuentes:
 | Recomendación   | Hacer saber a los empleados que estos datos son públicos                                             |
 
 ### 5.3 Dominios, subdominios y huella DNS (pasivo)
-<!-- AYUDA (BORRAR): Dominios oficiales/variantes y subdominios observados en fuentes pasivas/históricas. Evitad enumeración activa. -->
 
 - A-06
 
@@ -282,7 +254,6 @@ Tabla de fuentes:
 | Recomendación   | Elimina subdominios innecesarios y aísla los entornos dev/staging (VPN o IP allowlist) para reducir la attack surface. |
 
 ### 5.4 Huella documental y metadatos (documentos públicos)
-<!-- AYUDA (BORRAR): Documentos públicos y metadatos relevantes (autor, software, rutas, fechas). Adjuntad evidencia. -->
 
 - A-09
 
@@ -311,7 +282,6 @@ Tabla de fuentes:
 | Recomendación   | Hacer saber al responble de que este documento es público                                                                               |
 
 ### 5.5 Brechas y filtraciones (consulta pasiva)
-<!-- AYUDA (BORRAR): Aparición del dominio/correos en brechas conocidas. No incluyáis contraseñas. Priorizad mitigaciones (2FA, rotación, etc.). -->
 - A-11
 
 | Campo           | Contenido                                                                                                                                                 |
@@ -366,7 +336,6 @@ Tabla de fuentes:
 
 
 ## 6. Resumen de riesgos
-<!-- AYUDA (BORRAR): Tabla para priorizar: qué arreglar primero (P1), después (P2) y al final (P3). -->
 
 | ID   | Hallazgo (resumen)                                                                                      | Riesgo | Prioridad | Acción recomendada                                                                                                             |
 | ---- | ------------------------------------------------------------------------------------------------------- | ------ | --------- | ------------------------------------------------------------------------------------------------------------------------------ |
@@ -429,10 +398,8 @@ Tabla de fuentes:
 
 
 ## 9. Anexos
-<!-- AYUDA (BORRAR): Trazabilidad. Esta sección facilita la corrección: fuentes, consultas y evidencias enlazadas. -->
 
 ### 9.1 Registro de fuentes
-<!-- AYUDA (BORRAR): Fuentes base consultadas (URL + fecha). No hace falta duplicar cada evidencia si ya está en hallazgos, pero sí lo principal. -->
 
 | Fuente                             | URL                                                                                                                                          | Fecha acceso | Nota                      |
 | ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------- |
@@ -453,7 +420,6 @@ Tabla de fuentes:
 
 
 ### 9.2 Consultas (dorks) empleadas
-<!-- AYUDA (BORRAR): Dejad 5-15 consultas representativas. Deben ser pasivas y reproducibles. -->
 
 (Registrar aquí las consultas utilizadas. Evitar incluir acciones activas o instrucciones de acceso.)
 
@@ -472,9 +438,6 @@ Tabla de fuentes:
 - "Clínica San Rafael" "Cádiz" "equipo médico"
 
 ### 9.3 Evidencias (índice)
-<!-- AYUDA (BORRAR): Índice con enlaces relativos a ficheros dentro de `evidencias/`. Debe permitir abrir cada evidencia sin buscar. -->
-
-<!-- AYUDA (BORRAR): Ejemplo de enlace: `[2026-01-27 - Google - PDF organigrama](../evidencias/2026-01-27_google_organigrama.pdf)` -->
 
 - `evidencias/`:
   - `brechas-y-filtraciones/`
