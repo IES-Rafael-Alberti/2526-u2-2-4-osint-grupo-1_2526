@@ -383,11 +383,10 @@ Formato recomendado por hallazgo:
 
 
 ## 7. Conclusiones
-<!-- AYUDA (BORRAR): 3-6 bullets: qué superficie pública existía y qué vector pudo facilitar. Sin repetir texto, aportad síntesis. -->
 
-- [Conclusión 1: qué explica la exposición encontrada y por qué importa]
-- [Conclusión 2]
-- [Conclusión 3]
+- **Exposición crítica de identidades y estructura:** La publicación del organigrama completo y listados de empleados, combinada con la huella digital personal en redes sociales, facilita enormemente la creación de perfiles para ataques de spear phishing altamente creíbles.
+- **Transparencia física excesiva:** La disponibilidad pública de directorios y planos del edificio reduce la barrera de entrada para operaciones de seguridad física o reconocimiento presencial, eliminando la necesidad de reconocimiento activo arriesgado.
+- **Huella técnica y documental descuidada:** La presencia de subdominios olvidados, versiones de software expuestas y metadatos en documentos PDF revela una falta de higiene digital que podría servir como punto de entrada inicial para comprometer la infraestructura tecnológica.
 
 ## 8. Recomendaciones
 <!-- AYUDA (BORRAR): Convertid hallazgos en acciones concretas. Si podéis, asignad responsable sugerido (IT/Seguridad/RRHH/Comunicacion). -->
