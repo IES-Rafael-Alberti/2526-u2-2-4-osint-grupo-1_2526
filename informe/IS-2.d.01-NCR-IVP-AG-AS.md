@@ -87,13 +87,13 @@ Esta sección describe el proceso seguido según el ciclo OSINT: planificación,
 
 Tabla de fuentes:
 
-| Categoría  | Fuente/Herramienta                       | Qué se busca                | Notas (pasivo)              |
-| ---------- | ---------------------------------------- | --------------------------- | --------------------------- |
-| Buscadores | Google / Yandex / DuckDuckGo             | menciones, PDFs, indexación | dorks sin acceder a paneles |
-| Dominios   | WHOIS, viewdns                           | datos de registro           | solo consulta pública       |
-| DNS pasivo | dnsdumpster, viewdns                     | subdominios/histórico       | sin enumeración activa      |
-| RRSS       | LinkedIn/X/Facebook/Instagram/TopDoctors | perfiles, roles, nicks      | solo contenido público      |
-| Metadatos  | exiftool                                 | autores, rutas, software    | sobre ficheros públicos     |
+| Categoría  | Fuente/Herramienta                     | Qué se busca                | Notas (pasivo)              |
+| ---------- | -------------------------------------- | --------------------------- | --------------------------- |
+| Buscadores | Google                                 | menciones, PDFs, indexación | dorks sin acceder a paneles |
+| Dominios   | WHOIS, viewdns                         | datos de registro           | solo consulta pública       |
+| DNS pasivo | dnsdumpster, viewdns                   | subdominios/histórico       | sin enumeración activa      |
+| RRSS       | LinkedIn/Facebook/Instagram/TopDoctors | perfiles, roles, nicks      | solo contenido público      |
+| Metadatos  | exiftool                               | autores, rutas, software    | sobre ficheros públicos     |
 
 ### 3.3 Adquisición (recopilación)
 
@@ -146,10 +146,12 @@ Tabla de fuentes:
 ## 4. Herramientas utilizadas
 <!-- AYUDA (BORRAR): Incluid solo herramientas realmente usadas y una evidencia por cada una (URL o fichero en `evidencias/`). -->
 
-| Herramienta         | Tipo                          | Uso concreto                    | Salida/evidencia                          |
-| ------------------- | ----------------------------- | ------------------------------- | ----------------------------------------- |
-| [Herramienta]       | [Buscador/DNS/Metadatos/etc.] | [Para qué]                      | [archivo en evidencias/ o URL]            |
-| https://exif.tools/ | [Metadatos]                   | Extraer Metadatos de un archivo | evidencias\huella\2026-01-29_politica.png |
+| Herramienta             | Tipo                          | Uso concreto                            | Salida/evidencia                            |
+| ----------------------- | ----------------------------- | --------------------------------------- | ------------------------------------------- |
+| [Herramienta]           | [Buscador/DNS/Metadatos/etc.] | [Para qué]                              | [archivo en evidencias/ o URL]              |
+| https://www.google.com/ | [Buscador]                    | Buscador usado para todas las busquedas | No aplica                                   |
+| https://viewdns.info/   | [DNS/Dominio]                 | Ver datos del dominio y dns de la web   | evidencias\dominios-subd-huella-dns\dns.png |
+| https://exif.tools/     | [Metadatos]                   | Extraer Metadatos de un archivo         | evidencias\huella\2026-01-29_politica.png   |
 
 ## 5. Resultados (hallazgos)
 <!-- AYUDA (BORRAR): Parte principal. Cada hallazgo debe ser verificable y tener evidencia enlazada (URL y/o `evidencias/...`). -->
@@ -289,11 +291,11 @@ Formato recomendado por hallazgo:
 ### 5.4 Huella documental y metadatos (documentos públicos)
 <!-- AYUDA (BORRAR): Documentos públicos y metadatos relevantes (autor, software, rutas, fechas). Adjuntad evidencia. -->
 
-- A-07
+- A-08
 
 | Campo           | Contenido                                                                                                                                                      |
 | --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ID              | A-07                                                                                                                                                           |
+| ID              | A-08                                                                                                                                                           |
 | Categoría       | Documentos-Metadatos                                                                                                                                           |
 | Descripción     | Usando la busqueda site:https://www.hospitalespascual.com/ filetype:pdf, se puede obtener un documento pdf con varios metadatos como Autor y herramienta usada |
 | Evidencia       | [https://www.hospitalespascual.com/wp-content/uploads/2024/09/POLITICA-DE-MEDIOAMBIENTE44.pdf] + evidencias\huella\2026-01-29_politica.png                     |
@@ -302,15 +304,26 @@ Formato recomendado por hallazgo:
 | Riesgo          | Bajo                                                                                                                                                           |
 | Recomendación   | Asegurarse de que no se guarden metadatos de información sensible                                                                                              |
 
-- A-08
+- A-09
+- 
+| Campo           | Contenido                                                                                                                               |
+| --------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| ID              | A-09                                                                                                                                    |
+| Categoría       | Huella documental                                                                                                                       |
+| Descripción     | Documento BOJA de un convenio colectivo de hospitalespascual                                                                            |
+| Evidencia       | https://www.juntadeandalucia.es/boja/2018/78/BOJA18-078-00015-7083-01_00134471.pdf + [BOJA PDF](/evidencias/huella-documental/BOJA.png) |
+| Fecha evidencia | [2026-01-29]                                                                                                                            |
+| Impacto         | Información  acerca de la empres José Manuel Pascual Pascual S.A (hospitalespascual) social                                             |
+| Riesgo          | Bajo                                                                                                                                    |
+| Recomendación   | Hacer saber al responble de que este documento es público                                                                               |
 
 ### 5.5 Brechas y filtraciones (consulta pasiva)
 <!-- AYUDA (BORRAR): Aparición del dominio/correos en brechas conocidas. No incluyáis contraseñas. Priorizad mitigaciones (2FA, rotación, etc.). -->
-- A-01B
+- A-10
 
 | Campo           | Contenido                                                                                                                                                 |
 | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ID              | A-0X                                                                                                                                                      |
+| ID              | A-10                                                                                                                                                      |
 | Categoría       | Brechas                                                                                                                                                   |
 | Descripción     | Si navegamos por la web de la clínica con la consola de las devtools abierta, podemos observar notificaciones de tecnologías específicas y sus versiones. |
 | Evidencia       | https://www.hospitalespascual.com + [01-Wordpress.png](/evidencias/brechas-y-filtraciones/01-Wordpress.png)                                               |
@@ -319,11 +332,11 @@ Formato recomendado por hallazgo:
 | Riesgo          | Medio                                                                                                                                                     |
 | Recomendación   | Evitar la exposición de tecnologías en la medida de lo posible.                                                                                           |
 
-- A-02B
+- A-11
 
 | Campo           | Contenido                                                                                                                                                 |
 | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ID              | A-02B                                                                                                                                                     |
+| ID              | A-11                                                                                                                                                      |
 | Categoría       | Brechas                                                                                                                                                   |
 | Descripción     | Si navegamos por la web de la clínica con la consola de las devtools abierta, podemos observar notificaciones de tecnologías específicas y sus versiones. |
 | Evidencia       | https://www.hospitalespascual.com + [02-Jquery.png](/evidencias/brechas-y-filtraciones/02-Jquery.png)                                                     |
@@ -332,11 +345,11 @@ Formato recomendado por hallazgo:
 | Riesgo          | Medio                                                                                                                                                     |
 | Recomendación   | Evitar la exposición de tecnologías en la medida de lo posible.                                                                                           |
 
-- A-01A
+- A-12
 
 | Campo           | Contenido                                                                                                                                                    |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ID              | A-01A                                                                                                                                                        |
+| ID              | A-12                                                                                                                                                         |
 | Categoría       | Brechas                                                                                                                                                      |
 | Descripción     | Busqueda en Google de la web de la "Clínica de San Rafael de Cádiz", y vamos a la sección de "Equipo humano” se puede ver una lista con todos los empleados. |
 | Evidencia       | [https://www.hospitalespascual.com/hospital-san-rafael/] + evidencias\identidades digitales\A-01\2026-01-29_web.png                                          |
@@ -345,7 +358,7 @@ Formato recomendado por hallazgo:
 | Riesgo          | Alto                                                                                                                                                         |
 | Recomendación   | Remover la seccion de Equipo humano                                                                                                                          |
 
-- A-0X2
+- A-13
 
 | Campo           | Contenido                                                                                                                                                                   |
 | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -358,7 +371,6 @@ Formato recomendado por hallazgo:
 | Riesgo          | Medio                                                                                                                                                                       |
 | Recomendación   | Remover la seccion de Directorio                                                                                                                                            |
 
-- A-09
 
 ## 6. Resumen de riesgos
 <!-- AYUDA (BORRAR): Tabla para priorizar: qué arreglar primero (P1), después (P2) y al final (P3). -->
