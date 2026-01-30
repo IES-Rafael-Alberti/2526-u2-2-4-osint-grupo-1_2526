@@ -239,7 +239,7 @@ Formato recomendado por hallazgo:
 | Evidencia       | [https://www.hospitalespascual.com/guia-para-el-paciente/]+ evidencias\contacto\2026-01-29_guia3.png |
 | Fecha evidencia | [2026-01-29]                                                                                         |
 | Impacto         | Saber vectores de ataque para ingenieria social                                                      |
-| Riesgo          | Medio                                                                                                |
+| Riesgo          | Bajo                                                                                                 |
 | Recomendación   | Hacer saber a los empleados que estos datos son públicos                                             |
 
 ### 5.3 Dominios, subdominios y huella DNS (pasivo)
@@ -377,14 +377,14 @@ Formato recomendado por hallazgo:
 | A-02 | Información profesional del objetivo encontrada en LinkedIn y páginas web, incluyendo fotos con colegas | Alto   | P1        | Revisar la información pública en perfiles profesionales y limitar la exposición de datos laborales.                           |
 | A-03 | Información sobre Guido Weisman                                                                         | Alto   | P1        | Revisar la información pública en perfiles profesionales y limitar la exposición de datos laborales.                           |
 | A-04 | Información personal en redes sociales (Instagram y Facebook) incluyendo fotos familiares               | Medio  | P2        | Hacer saber a los empleados que estos datos son públicos                                                                       |
-| A-05 | En la guia para el paciente se pueden ver varios telefonos                                              | Medio  | P2        | Hacer saber a los empleados que estos datos son públicos                                                                       |
-| A-06 | Subdominios observados en fuentes pasivas/históricas.                                                   | Alto   | P1        | Reducir lo que "se puede enumerar"; cerrar subdominios innecesarios, aislar entornos, evitar registros DNS de más entre otras. |
-| A-07 | Obtener detalles clave tanto del dominio como de la ip pública asociada.                                | Alto   | P1        | No exponer información sensible en Whois activando la privacidad del registrador.                                              |
-| A-08 | Obtener la huella DNS del dominio.                                                                      | Alto   | P1        | Elimina subdominios innecesarios y aísla los entornos dev/staging (VPN o IP allowlist) para reducir la attack surface.         |
+| A-05 | En la guia para el paciente se pueden ver varios telefonos                                              | Bajo   | P3        | Hacer saber a los empleados que estos datos son públicos                                                                       |
+| A-06 | Subdominios observados en fuentes pasivas/históricas.                                                   | Medio  | P2        | Reducir lo que "se puede enumerar"; cerrar subdominios innecesarios, aislar entornos, evitar registros DNS de más entre otras. |
+| A-07 | Obtener detalles clave tanto del dominio como de la ip pública asociada.                                | Bajo   | P3        | No exponer información sensible en Whois activando la privacidad del registrador.                                              |
+| A-08 | Obtener la huella DNS del dominio.                                                                      | Medio  | P2        | Elimina subdominios innecesarios y aísla los entornos dev/staging (VPN o IP allowlist) para reducir la attack surface.         |
 | A-09 | Documento pdf con varios metadatos como autor y herramienta usada                                       | Bajo   | P3        | Asegurarse de que no se guarden metadatos de información sensible                                                              |
 | A-10 | Documento BOJA de un convenio colectivo de hospitalespascual                                            | Bajo   | P3        | Hacer saber al responble de que este documento es público                                                                      |
-| A-11 | Notificaciones de tecnologías específicas y sus versiones. Wordpress                                    | Alto   | P1        | Evitar la exposición de tecnologías en la medida de lo posible.                                                                |
-| A-12 | Notificaciones de tecnologías específicas y sus versiones. Jquery                                       | Alto   | P1        | Evitar la exposición de tecnologías en la medida de lo posible.                                                                |
+| A-11 | Notificaciones de tecnologías específicas y sus versiones. Wordpress                                    | Medio  | P2        | Evitar la exposición de tecnologías en la medida de lo posible.                                                                |
+| A-12 | Notificaciones de tecnologías específicas y sus versiones. Jquery                                       | Medio  | P2        | Evitar la exposición de tecnologías en la medida de lo posible.                                                                |
 | A-13 | Lista de todos los empleados                                                                            | Alto   | P1        | Remover la sección Equipo Humano                                                                                               |
 | A-14 | Distribución de las instalaciones.                                                                      | Medio  | P2        | Remover la sección de Directorio                                                                                               |
 
